@@ -1,2 +1,2 @@
 # julesrx.fr
-Personnal Website built with [Html5Boilerplate](https://html5boilerplate.com/).
+Personnal Website built with [Jekyll](https://jekyllrb.com/).
