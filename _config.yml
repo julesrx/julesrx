@@ -16,9 +16,9 @@
 title: Jules Raffoux
 email: julesraffoux@utila.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Jules Raffoux, Développeur Web et étudiant en LP DAWIN à l'IUT de Bordeaux.
+  Jules Raffoux, Développeur Web junior et étudiant en LP DAWIN à l'IUT de Bordeaux.
 short_description: Développeur Web
-long_description: Etudiant en LP DAWIN à l'IUT de Bordeaux.
+long_description: Étudiant en <a href="https://www.iut.u-bordeaux.fr/info#postL2" target="_blank">licence professionnelle DAWIN</a> à l'IUT de Bordeaux.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JulesRx__
