@@ -1,1 +1,38 @@
 @charset "utf-8";
+@import "normalize";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  text-align: center;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.2em;
+    text-align: center;
+  }
+}
