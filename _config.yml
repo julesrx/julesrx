@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "short_description:"
   Jules Raffoux, Développeur Web junior et étudiant en LP DAWIN à l'IUT de Bordeaux.
 short_description: Développeur Web
 long_description: >
-  Étudiant en <a href="https://www.iut.u-bordeaux.fr/info#postL2" target="_blank">licence professionnelle DAWIN</a> à l'IUT de Bordeaux en alternance chez <a href="https://bewease.fr" target="_blank">Bewease</a>.
+  Étudiant en <a href="https://www.iut.u-bordeaux.fr/info#postL2" target="_blank">licence professionnelle DAWIN</a> à l'IUT de Bordeaux en alternance chez <a href="https://www.bewease.fr/" target="_blank">Bewease</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JulesRx__
