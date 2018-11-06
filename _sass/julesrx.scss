@@ -1,5 +1,7 @@
 @charset "utf-8";
 @import "normalize";
+@import "variables";
+@import "functions";
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
@@ -13,9 +15,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
   // background-color: $color;
-  transition: background-color 2s cubic-bezier(1, 1, 1, 1);
-  transition-delay: 0s;
+  // animation: loading $time linear;
 
   main.profile {
     font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
