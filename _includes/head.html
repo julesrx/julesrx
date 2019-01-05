@@ -1,8 +1,6 @@
 <head>
   <meta charset="utf-8">
 
-  <title>{{- site.title | escape -}}</title>
-
   <meta name="title" content="{{- site.title | escape -}}">
   <meta name="description" content="{{- site.description | escape -}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,10 +28,11 @@
   <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
   <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" /><![endif]-->
 
-<script src="{{ "/assets/js/julesrx.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/julesrx.js" | relative_url }}"></script>
 
-  {%- feed_meta -%}
   {% if jekyll.environment == 'production' %}
     {%- include analytics.html -%}
   {%- endif -%}
+
+  <title>{{- site.title | escape -}}</title>
 </head>
