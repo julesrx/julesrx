@@ -24,7 +24,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JulesRx__
 github_username:  JulesRx
-linkedin_username: jules-raffoux
 color: 2ecc71
 
 # Build settings
