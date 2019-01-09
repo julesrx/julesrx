@@ -30,9 +30,10 @@
 
   <script src="{{ '/assets/js/julesrx.js' -}}"></script>
 
-  {%- if jekyll.environment == 'production' -%}
-    {%- include analytics.html -%}
-  {%- endif -%}
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+
 
   <title>{{- site.title -}}</title>
 </head>
