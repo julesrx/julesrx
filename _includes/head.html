@@ -1,38 +1,38 @@
 <head>
   <meta charset="utf-8">
 
-  <meta name="title" content="{{- site.title | escape -}}">
-  <meta name="description" content="{{- site.description | escape -}}">
+  <meta name="title" content="{{- site.title -}}">
+  <meta name="description" content="{{- site.description -}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#{{- site.color -}}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="{{- site.twitter_username -}}" />
-  <meta name="twitter:title" content="{{- site.title | escape -}}" />
-  <meta name="twitter:description" content="{{- site.description | escape -}}" />
-  <meta name="twitter:image" content="{{ "/assets/img/site-thumbnail.png" | absolute_url }}" />
+  <meta name="twitter:title" content="{{- site.title -}}" />
+  <meta name="twitter:description" content="{{- site.description -}}" />
+  <meta name="twitter:image" content="{{- '/assets/img/site-thumbnail.png' | absolute_url -}}" />
   <!-- OPENGRAPH -->
-  <meta property="og:title" content="{{- site.title | escape -}}">
+  <meta property="og:title" content="{{- site.title -}}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ "/assets/img/site-thumbnail.png" | absolute_url }}">
-  <meta property="og:url" content="{{- site.url -}}">
-  <meta property="og:description" content="{{- site.description | escape -}}">
+  <meta property="og:image" content="{{- '/assets/img/site-thumbnail.png' | absolute_url -}}">
+  <meta property="og:url" content="{{- page.url | absolute_url -}}">
+  <meta property="og:description" content="{{- site.description -}}">
   <meta property="og:locale" content="FR_fr">
   <meta property="og:email" content="{{- site.email -}}">
 
   <link rel="canonical" href="{{- site.url -}}">
-  <!-- STYLES -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.ico" | relative_url }}" />
-  <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
-  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" /><![endif]-->
+  <link rel="icon" type="image/png" href="{{- '/assets/img/favicon.ico' -}}" />
+  <link rel="shortcut icon" href="{{- '/assets/img/favicon.ico' | relative_url -}}">
+  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="{{- '/assets/img/favicon.ico' -}}" /><![endif]-->
 
-  <script src="{{ "/assets/js/julesrx.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="{{- '/assets/css/main.css' -}}">
 
-  {% if jekyll.environment == 'production' %}
+  <script src="{{ '/assets/js/julesrx.js' -}}"></script>
+
+  {%- if jekyll.environment == 'production' -%}
     {%- include analytics.html -%}
   {%- endif -%}
 
-  <title>{{- site.title | escape -}}</title>
+  <title>{{- site.title -}}</title>
 </head>
