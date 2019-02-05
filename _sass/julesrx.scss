@@ -2,11 +2,11 @@
 @import "normalize";
 @import "variables";
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik');
 
 html,
 body {
-  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Rubik", sans-serif;
   height: 100%;
 }
 body {
@@ -29,6 +29,7 @@ body {
     }
 
     h1 {
+      font-family: "Montserrat", sans-serif;
       font-size: 28px;
       font-weight: 700;
       margin-top: 0.67em;
@@ -37,6 +38,7 @@ body {
 
     h2 {
       font-size: 18px;
+      font-weight: normal;
     }
 
     p {
