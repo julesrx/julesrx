@@ -7,7 +7,7 @@ long_description: >
   Étudiant en <a href="https://www.iut.u-bordeaux.fr/info#postL2" target="_blank">licence professionnelle DAWIN</a> à l'IUT de Bordeaux en alternance chez <a href="https://www.bewease.fr/" target="_blank">bewease</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: JulesRx__
+twitter_username: "@JulesRx__"
 github_username:  JulesRx
 color: 2ecc71
 
