@@ -8,7 +8,7 @@ long_description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@JulesRx__"
-github_username:  JulesRx
+github_username:  julesrx
 color: 2ecc71
 
 # Build settings
