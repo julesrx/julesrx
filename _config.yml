@@ -1,10 +1,10 @@
 title: Jules Raffoux
 email: julesraffoux@utila.io
 description: >- # this means to ignore newlines until "short_description:"
-  Développeur Full Stack et étudiant en LP DAWIN à l'IUT de Bordeaux.
+  Développeur full-stack chez bewease.
 short_description: Développeur Full Stack
 long_description: >
-  Étudiant en <a href="https://www.iut.u-bordeaux.fr/info#postL2" target="_blank">licence professionnelle DAWIN</a> à l'IUT de Bordeaux en alternance chez <a href="https://www.bewease.fr/" target="_blank">bewease</a>.
+  Développeur full-stack chez <a href="https://www.bewease.fr/" target="_blank">bewease</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "julesrx__"
