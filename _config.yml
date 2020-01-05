@@ -6,7 +6,7 @@ short_description: Développeur Full Stack
 long_description: >
   Joueur compétitif, développeur full-stack chez <a href="https://www.bewease.fr/" target="_blank">bewease</a>, et grand amateur de pâtes 🍝
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "julesrx__"
 github_username:  julesrx
 color: 2ecc71
