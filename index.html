@@ -3,15 +3,16 @@ layout: default
 ---
 
 <main class="profile">
-  <img src="https://www.gravatar.com/avatar/09fd7bd49aeaf123645705096bb3dfd7?s=1024?r=g&d={{- '/assets/img/profile.jpg' | absolute_url -}}" alt="{{- site.title -}}">
+    <img src="https://www.gravatar.com/avatar/09fd7bd49aeaf123645705096bb3dfd7?s=512?r=g&d={{- '/assets/img/profile.jpg' | absolute_url -}}"
+        alt="{{- site.title -}}">
 
-  <h1>{{- site.title -}}</h1>
-  <h2>{{- site.short_description -}}</h2>
-  <p>{{- site.long_description -}}</p>
+    <h1>{{- site.title -}}</h1>
+    <h2>{{- site.short_description -}}</h2>
+    <p>{{- site.long_description -}}</p>
 
-  <div class="social">
-    <a href="https://github.com/{{- site.github_username -}}" aria-label="Github">Github</a>
-    <a href="mailto:{{ site.email }}" aria-label="Mail">Email</a>
-    <a href="https://twitter.com/{{- site.twitter_username -}}" aria-label="Twitter">Twitter</a>
-  </div>
+    <div class="social">
+        <a href="https://github.com/{{- site.github_username -}}" aria-label="Github">Github</a>
+        <a href="mailto:{{- site.email -}}" aria-label="Email">Email</a>
+        <a href="https://twitter.com/{{- site.twitter_username -}}" aria-label="Twitter">Twitter</a>
+    </div>
 </main>

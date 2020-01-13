@@ -1,23 +1,16 @@
-title: Jules Raffoux
+url: "https://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
+title: "Jules Raffoux" # the name of your site, e.g. ACME Corp.
 email: me@julesrx.fr
 description: >- # this means to ignore newlines until "short_description:"
   Développeur full-stack chez bewease
 short_description: Développeur Full Stack
 long_description: >
   Joueur compétitif, développeur full-stack chez <a href="https://www.bewease.fr/" target="_blank">bewease</a>, et grand amateur de pâtes 🍝
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://julesrx.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "julesrx__"
-github_username:  julesrx
-color: 2ecc71
-
-# Build settings
-markdown: kramdown
-
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-coffeescript
+github_username:  "julesrx"
+color: "2ecc71"
 
 sass:
   style: compressed
