@@ -10,6 +10,7 @@ let height;
 const frame = () => {
   for (const icon of icons) {
     hue(icon);
+    rotate(icon);
 
     icon.x = icon.x + icon.xspeed;
     icon.y = icon.y + icon.yspeed;
@@ -41,14 +42,16 @@ const setup = () => {
   width = window.innerWidth;
   height = window.innerHeight;
 
-  for (const svg of document.getElementsByTagName('a')) {
+  for (const el of document.getElementsByTagName('a')) {
     icons.push({
-      el: svg,
+      el,
       x: random(width),
       y: random(height),
-      xspeed: random(3),
+      xspeed: random(2),
       yspeed: random(3),
-      h: random(360)
+      hue: random(360),
+      rotate: random(360),
+      dir: Math.random() > 0.5 ? 1 : -1
     });
   }
 
@@ -56,8 +59,13 @@ const setup = () => {
 };
 
 const hue = icon => {
-  icon.h = icon.h == 360 ? 0 : icon.h + 1;
-  icon.el.style.color = `hsl(${icon.h}, 100%, 50%)`;
+  icon.hue = icon.hue == 360 ? 0 : icon.hue + 1;
+  icon.el.style.color = `hsl(${icon.hue}, 100%, 50%)`;
+};
+
+const rotate = icon => {
+  icon.rotate = icon.rotate == 360 ? 0 : icon.rotate + 1;
+  icon.el.style.transform = `rotate(${icon.rotate * icon.dir}deg)`;
 };
 
 const random = max => Math.floor(Math.random() * max) + 1;
