@@ -7,8 +7,12 @@ a {
   position: absolute;
 }
 
-svg {
-  fill: #fff;
+svg,
+img {
   width: 100px;
   height: 100px;
+}
+
+img {
+  border-radius: 50%;
 }

@@ -4,8 +4,8 @@ let interval;
 
 const icons = [];
 
-let width = window.innerWidth;
-let height = window.innerHeight;
+let width;
+let height;
 
 const frame = () => {
   for (const icon of icons) {
@@ -35,6 +35,9 @@ const frame = () => {
 
 const setup = () => {
   clearInterval(interval);
+
+  width = window.innerWidth;
+  height = window.innerHeight;
 
   for (const svg of document.getElementsByTagName('a')) {
     icons.push({ el: svg, x: random(width), y: random(height), xspeed: 2, yspeed: 2 });
