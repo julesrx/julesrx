@@ -1,0 +1,12 @@
+body {
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  svg {
+    fill: #fff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  
