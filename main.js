@@ -1,40 +1,42 @@
 import './style.css';
 
-const svg = document.getElementsByTagName('svg')[0];
+const icons = [];
 
-let x, y;
 let xspeed, yspeed;
 
 let width = window.innerWidth;
 let height = window.innerHeight;
 
 const frame = () => {
-  x = x + xspeed;
-  y = y + yspeed;
+  for (let icon of icons) {
+    icon.x = icon.x + xspeed;
+    icon.y = icon.y + yspeed;
 
-  svg.style.left = x + 'px';
-  svg.style.top = y + 'px';
+    icon.el.style.left = icon.x + 'px';
+    icon.el.style.top = icon.y + 'px';
 
-  if (x + svg.clientWidth >= width) {
-    xspeed = -xspeed;
-    x = width - svg.clientWidth;
-  } else if (x <= 0) {
-    xspeed = -xspeed;
-    x = 0;
-  }
+    if (icon.x + icon.el.clientWidth >= width) {
+      xspeed = -xspeed;
+      icon.x = width - icon.el.clientWidth;
+    } else if (icon.x <= 0) {
+      xspeed = -xspeed;
+      icon.x = 0;
+    }
 
-  if (y + svg.clientHeight >= height) {
-    yspeed = -yspeed;
-    y = height - svg.clientHeight;
-  } else if (y <= 0) {
-    yspeed = -yspeed;
-    y = 0;
+    if (icon.y + icon.el.clientHeight >= height) {
+      yspeed = -yspeed;
+      icon.y = height -  icon.el.clientHeight;
+    } else if (icon.y <= 0) {
+      yspeed = -yspeed;
+      icon.y = 0;
+    }
   }
 };
 
 const setup = () => {
-  x = 0;
-  y = 0;
+  for (const svg of document.getElementsByTagName('svg')) {
+    icons.push({ el: svg, x: 0, y: 0 });
+  }
 
   xspeed = 1;
   yspeed = 1;
