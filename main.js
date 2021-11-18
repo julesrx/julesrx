@@ -1,5 +1,7 @@
 import './style.css';
 
+let interval;
+
 const icons = [];
 
 let width = window.innerWidth;
@@ -32,14 +34,18 @@ const frame = () => {
 };
 
 const setup = () => {
-  for (const svg of document.getElementsByTagName('svg')) {
+  clearInterval(interval);
+
+  for (const svg of document.getElementsByTagName('a')) {
     icons.push({ el: svg, x: random(width), y: random(height), xspeed: 2, yspeed: 2 });
   }
 
-  setInterval(frame, fps(120));
+  interval = setInterval(frame, fps(120));
 };
 
 const random = max => Math.floor(Math.random() * max) + 1;
 const fps = n => Math.floor((1 / n) * 1000);
 
 setup();
+
+window.addEventListener('resize', setup);
