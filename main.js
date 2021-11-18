@@ -9,6 +9,8 @@ let height;
 
 const frame = () => {
   for (const icon of icons) {
+    hue(icon);
+
     icon.x = icon.x + icon.xspeed;
     icon.y = icon.y + icon.yspeed;
 
@@ -40,10 +42,22 @@ const setup = () => {
   height = window.innerHeight;
 
   for (const svg of document.getElementsByTagName('a')) {
-    icons.push({ el: svg, x: random(width), y: random(height), xspeed: 2, yspeed: 2 });
+    icons.push({
+      el: svg,
+      x: random(width),
+      y: random(height),
+      xspeed: random(3),
+      yspeed: random(3),
+      h: random(360)
+    });
   }
 
   interval = setInterval(frame, fps(120));
+};
+
+const hue = icon => {
+  icon.h = icon.h == 360 ? 0 : icon.h + 1;
+  icon.el.style.color = `hsl(${icon.h}, 100%, 50%)`;
 };
 
 const random = max => Math.floor(Math.random() * max) + 1;
