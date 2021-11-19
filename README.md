@@ -1,3 +1,3 @@
 # julesrx.fr
 
-Personnal Website.
+Personal website.
