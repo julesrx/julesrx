@@ -1,12 +1,20 @@
 lockfileVersion: 5.3
 
 specifiers:
+  bouncing-element: ^1.0.0
   vite: ^2.6.4
+
+dependencies:
+  bouncing-element: 1.0.0
 
 devDependencies:
   vite: 2.6.14
 
 packages:
+
+  /bouncing-element/1.0.0:
+    resolution: {integrity: sha512-4xzK5BZx+ocG06nfMDqkqjc3A9jHM8me0qQLZ0Ye0lFjSzYSSpGPY3vnAH6teKjxgfAVdtMfEgaVNHnjSTaL5g==}
+    dev: false
 
   /esbuild-android-arm64/0.13.14:
     resolution: {integrity: sha512-Q+Xhfp827r+ma8/DJgpMRUbDZfefsk13oePFEXEIJ4gxFbNv5+vyiYXYuKm43/+++EJXpnaYmEnu4hAKbAWYbA==}
