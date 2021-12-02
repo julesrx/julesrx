@@ -2,12 +2,14 @@ lockfileVersion: 5.3
 
 specifiers:
   bouncing-element: ^1.0.0
+  marked: ^4.0.6
   vite: ^2.6.4
 
 dependencies:
   bouncing-element: 1.0.0
 
 devDependencies:
+  marked: 4.0.6
   vite: 2.6.14
 
 packages:
@@ -199,6 +201,12 @@ packages:
     resolution: {integrity: sha512-vd15qHsaqrRL7dtH6QNuy0ndJmRDrS9HAM1CAiSifNUFv4x1a0CCVsj18hJ1mShxIG6T2i1sO78MkP56r0nYRw==}
     dependencies:
       has: 1.0.3
+    dev: true
+
+  /marked/4.0.6:
+    resolution: {integrity: sha512-+H0bTf8DM8zLuFBUm/2VklxaCrwlBFgoJzHJcMZCnZ9cPgsllHwKpL6TPLdDeA38yPluMuVKOL1hO5w6HmG5Mg==}
+    engines: {node: '>= 12'}
+    hasBin: true
     dev: true
 
   /nanoid/3.1.30:
