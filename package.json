@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node readme.js",
     "serve": "vite preview"
   },
   "dependencies": {
-    "bouncing-element": "^1.0.0"
+    "bouncing-element": "^1.0.3"
   },
   "devDependencies": {
-    "vite": "^2.6.4"
+    "marked": "^4.0.6",
+    "vite": "^2.6.14",
+    "vite-plugin-windicss": "^1.5.4",
+    "windicss": "^3.2.1"
   }
 }
