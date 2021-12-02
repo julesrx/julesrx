@@ -1,5 +1,6 @@
+import { defineConfig } from 'vite';
 import windicss from 'vite-plugin-windicss';
 
-export default {
+export default defineConfig({
   plugins: [windicss()]
-};
+});

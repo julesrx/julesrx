@@ -1,12 +1,12 @@
-svg,
-img {
+nav svg,
+nav img {
   @apply w-14 h-14;
 }
 
-svg {
+nav svg {
   @apply text-white;
 }
 
-img {
+nav img {
   @apply rounded-full;
 }
