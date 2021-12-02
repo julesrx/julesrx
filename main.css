@@ -1,7 +1,3 @@
 .bounce {
-  @apply h-6 w-6 -z-1;
-}
-
-img[alt="julesrx's GitHub Stats"] {
-  @apply relative -z-2;
+  @apply h-6 w-6;
 }
