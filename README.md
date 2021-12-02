@@ -18,4 +18,4 @@ I'm a full stack dev [@bewease](https://bewease.fr/) in [Bordeaux, France 🇫�
 - 📫 Reach me: [twitter.com/julesrx\_\_](https://twitter.com/julesrx__)
 - 🍝 [Yes](https://youtu.be/Dia09qoGbo4)
 
-![julesrx's GitHub Stats](https://github-readme-stats.vercel.app/api?username=julesrx&hide=stars&count_private=true&show_icons=true&text_color=F0F6FC&title_color=2ecc71&icon_color=2ecc71&bg_color=0d1117&border_color=30363d)
+[![julesrx's GitHub Stats](https://github-readme-stats.vercel.app/api?username=julesrx&hide=stars&count_private=true&show_icons=true&text_color=F0F6FC&title_color=2ecc71&icon_color=2ecc71&bg_color=0d1117&border_color=30363d)](https://github.com/julesrx)
