@@ -8,6 +8,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.5.1",
     "bouncing-element": "^1.0.3"
   },
   "devDependencies": {
