@@ -1,6 +1,6 @@
 ### Hello there ✌
 
-I'm a full stack dev [@bewease](https://bewease.fr/) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with Vue, Typescript, .NET and other recent stuff.
+I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with Vue, Typescript, .NET and other recent stuff.
 
 #### Now
 
