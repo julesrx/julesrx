@@ -12,7 +12,7 @@ I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫
 
 - 🐧 Daily driving [Linux](https://pop.system76.com/)
 - 😍 Loving [Vue](https://v3.vuejs.org/), [Vite](https://vitejs.dev/) and [Windi CSS](https://windicss.org/)
-- 🌱 Contributing more in Open Source
+- 🌱 Contributing more to Open Source
 - 👨‍💻 I use daily `.cs`, `.js`, `.ts`, `.sql`, `.yml`
 - 🎮 Halo & Destiny player
 - 📫 Reach me: [twitter.com/julesrx\_\_](https://twitter.com/julesrx__)
