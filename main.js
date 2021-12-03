@@ -14,4 +14,15 @@ Array(3)
   })
   .forEach(e => document.body.appendChild(e));
 
+Array(3)
+  .fill('/favicon.ico')
+  .map(e => {
+    const i = document.createElement('img');
+    i.className = 'bounce';
+    i.src = e;
+    i.alt = 'Jules Raffoux';
+    return i;
+  })
+  .forEach(e => document.body.appendChild(e));
+
 new Bouncer();

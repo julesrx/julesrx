@@ -1,3 +1,7 @@
 .bounce {
   @apply h-6 w-6;
 }
+
+img.bounce {
+  @apply rounded-full;
+}
