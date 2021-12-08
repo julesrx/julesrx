@@ -5,3 +5,7 @@
 img.bounce {
   @apply rounded-full;
 }
+
+article img {
+  max-width: 95vw;
+}
