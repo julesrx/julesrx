@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.1",
-    "bouncing-element": "^1.0.3"
+    "bouncing-element": "^1.0.5"
   },
   "devDependencies": {
     "marked": "^4.0.7",

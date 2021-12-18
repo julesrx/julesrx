@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@fontsource/inter': ^4.5.1
-  bouncing-element: ^1.0.3
+  bouncing-element: ^1.0.5
   marked: ^4.0.7
   vite: ^2.7.3
   vite-plugin-windicss: ^1.5.4
@@ -10,7 +10,7 @@ specifiers:
 
 dependencies:
   '@fontsource/inter': 4.5.1
-  bouncing-element: 1.0.3
+  bouncing-element: 1.0.5
 
 devDependencies:
   marked: 4.0.7
@@ -79,8 +79,8 @@ packages:
       - supports-color
     dev: true
 
-  /bouncing-element/1.0.3:
-    resolution: {integrity: sha512-XicXvDLJczYPe6cWyUBSrMtBTbKfklj+2skJWQLMVZ5k1zpBh6xLkag/BeYGpkSIgesOLW3IdgoV7/ATxRHqWg==}
+  /bouncing-element/1.0.5:
+    resolution: {integrity: sha512-RGXAhg4z6krp+9R2Ck0KYRGHa/0Yh13a419CkKYyb/91Yk1m1WVbKw3rzqwfv4MFVAuqDPaHNyo/wspP4Jk5PQ==}
     dev: false
 
   /braces/3.0.2:
