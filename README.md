@@ -5,7 +5,7 @@ I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫
 #### Now
 
 - 🖌 Working on my design skills
-- ⚛ Learning [React](https://reactjs.org/) and [Next.js](https://nextjs.org/)
+- 🚀 Learning [Go](https://go.dev/)
 - 🕵 De-Google-ifying my life
 
 #### Bio
