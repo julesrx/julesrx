@@ -4,7 +4,7 @@ import './main.css';
 import Bouncer from 'bouncing-element';
 
 Array(3)
-  .fill(['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🏍', '🐸'])
+  .fill(['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🏍', '🐸', '🚀'])
   .flat()
   .map(e => {
     const i = document.createElement('i');
@@ -20,7 +20,6 @@ Array(3)
     const i = document.createElement('img');
     i.className = 'bounce';
     i.src = e;
-    i.alt = 'Jules Raffoux';
     return i;
   })
   .forEach(e => document.body.appendChild(e));
