@@ -31,9 +31,10 @@
 
     <title>{{ title }}</title>
   </head>
-  <body class="bg-[#0d1117]">
+  <body class="bg-[#0d1117] lg:p-16 md:p-10 p-2">
     <main>
-      <article id="readme" class="text-[#F0F6FC] prose lg:p-16 md:p-10 p-2">{{ readme }}</article>
+      <article id="readme" class="prose">{{ readme }}</article>
+      <section id="projects" class="prose hidden">{{ projects }}</section>
     </main>
 
     <script type="module" src="/main.ts"></script>

@@ -11,6 +11,7 @@ export default createUnplugin(() => {
         enforce: 'pre',
         transform: html => {
           const readme = fs.readFileSync(path.join(__dirname, 'README.md'));
+          const projects = fs.readFileSync(path.join(__dirname, 'PROJECTS.md'));
 
           marked.use({
             renderer: {
@@ -23,11 +24,12 @@ export default createUnplugin(() => {
 
           return html
             .replace('{{ readme }}', marked.parse(readme.toString()))
+            .replace('{{ projects }}', marked.parse(projects.toString()))
             .replace(
-              /{{ description }}/gm,
+              /{{ description }}/g,
               "I'm a full stack dev at bewease in Bordeaux, France 🇫🇷, working with Vue, Typescript, .NET and other recent stuff."
             )
-            .replace(/{{ title }}/gm, 'Jules Raffoux');
+            .replace(/{{ title }}/g, 'Jules Raffoux');
         }
       }
     }

@@ -1,5 +1,5 @@
 .bounce {
-  @apply h-6 w-6;
+  @apply h-6 w-6 opacity-20 sm:opacity-40 lg:opacity-100;
 }
 
 img.bounce {
@@ -8,4 +8,9 @@ img.bounce {
 
 article img {
   max-width: 95vw;
+}
+
+body,
+.prose {
+  @apply text-[#F0F6FC];
 }
