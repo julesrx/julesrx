@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/inter': ^4.5.14
   '@nuxt/content': ^2.2.2
   '@unocss/nuxt': ^0.46.5
   '@unocss/preset-typography': ^0.46.5
@@ -8,6 +9,7 @@ specifiers:
   nuxt: 3.0.0-rc.13
 
 dependencies:
+  '@fontsource/inter': 4.5.14
   bouncing-element: 1.0.7
 
 devDependencies:
@@ -349,6 +351,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/inter/4.5.14:
+    resolution: {integrity: sha512-JDC9AocdPLuGsASkvWw9hS5gtHE7K9dOwL98XLrk5yjYqxy4uVnScG58NUvFMJDVJRl/7c8Wnap6PEs+7Zvj1Q==}
+    dev: false
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
