@@ -4,7 +4,11 @@ specifiers:
   '@nuxt/content': ^2.2.2
   '@unocss/nuxt': ^0.46.5
   '@unocss/preset-typography': ^0.46.5
+  bouncing-element: ^1.0.7
   nuxt: 3.0.0-rc.13
+
+dependencies:
+  bouncing-element: 1.0.7
 
 devDependencies:
   '@nuxt/content': 2.2.2
@@ -1460,6 +1464,10 @@ packages:
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
+
+  /bouncing-element/1.0.7:
+    resolution: {integrity: sha512-JgFpRJAtvTQLO577K/j9V5HbTDhCQNi7zzh7zyfiW4t0c85To5AmwYZDMpO7+14Bz31w9G6MbTlh5SWTN72dVg==}
+    dev: false
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}

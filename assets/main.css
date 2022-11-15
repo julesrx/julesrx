@@ -1,0 +1,12 @@
+img.bounce {
+  border-radius: 50%;
+}
+
+article img {
+  max-width: 95vw;
+}
+
+body,
+.prose {
+  color: #f0f6fc;
+}

@@ -1,10 +1,12 @@
-import { defineConfig, presetTypography } from 'unocss';
+import { defineConfig, presetUno, presetTypography } from 'unocss';
 
 export default defineConfig({
   theme: {
     fontFamily: { sans: ['Inter'] }
   },
+  shortcuts: { bounce: 'h-6 w-6 opacity-20 sm:opacity-40 lg:opacity-100' },
   presets: [
+    presetUno(),
     presetTypography({
       cssExtend: {
         h3: { color: 'inherit' },
