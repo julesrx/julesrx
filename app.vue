@@ -34,7 +34,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Body class="bg-[#0d1117] lg:p-16 md:p-10 p-2 font-sans"></Body>
+  <Body class="bg-[#0d1117] lg:p-16 md:p-10 p-2 font-sans m-0"></Body>
 
   <Head>
     <Meta name="title" :content="title" />

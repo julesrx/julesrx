@@ -1,28 +1,37 @@
 import { defineConfig, presetUno, presetTypography } from 'unocss';
 
+const uno = presetUno();
+
 export default defineConfig({
   theme: {
-    fontFamily: { sans: ['Inter'] }
+    fontFamily: {
+      sans: ['Inter', uno.theme!.fontFamily!.sans]
+    }
   },
-  shortcuts: { bounce: 'h-6 w-6 opacity-20 sm:opacity-40 lg:opacity-100' },
+  shortcuts: { bounce: 'h-6 w-6 opacity-20 sm:opacity-40 lg:opacity-100 rounded-full' },
   presets: [
-    presetUno(),
+    uno,
     presetTypography({
       cssExtend: {
-        h3: { color: 'inherit' },
-        h4: { color: 'inherit' },
+        'h3>a': { color: 'inherit' },
+        'h4>a': { color: 'inherit' },
         a: {
           color: '#2ecc71',
-          textDecoration: 'none'
+          'text-decoration': 'none'
         },
         code: {
-          color: 'inherit',
-          backgroundColor: 'rgba(110,118,129,0.4)',
-          borderRadius: '6px',
-          fontWeight: 'normal'
+          background: 'rgba(110,118,129,0.4) !important'
         },
-        'code::before': { content: '' },
-        'code::after': { content: '' }
+        img: {
+          'max-width': '95vw',
+          'margin-top': '2em',
+          'margin-bottom': '2em'
+        },
+        ul: { 'margin-left': '40px' },
+        li: {
+          'padding-left': '.8em',
+          margin: '.5em 0'
+        }
       }
     })
   ]
