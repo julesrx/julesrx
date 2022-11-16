@@ -1,3 +1,4 @@
+// @unocss-include
 import Bouncer from 'bouncing-element';
 
 const emojis = ['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🏍', '🐸', '🚀'];
