@@ -23,6 +23,7 @@ export default defineConfig({
           background: 'rgba(110,118,129,0.4) !important',
           'border-radius': '6px',
           'font-family': uno.theme!.fontFamily!.mono,
+          'font-weight': 'normal'
         },
         img: {
           'max-width': '95vw',
