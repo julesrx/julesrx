@@ -1,36 +1,11 @@
 <script setup lang="ts">
-import Bouncer from 'bouncing-element';
+const config = useAppConfig();
 
-const appConfig = useAppConfig() as { title: string; description: string; url: string };
+const title = config.title;
+const description = config.description;
+const url = config.url;
 
-const title = appConfig.title;
-const description = appConfig.description;
-const url = appConfig.url;
-
-onMounted(() => {
-  Array(3)
-    .fill(['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🏍', '🐸', '🚀'])
-    .flat()
-    .map(e => {
-      const i = document.createElement('i');
-      i.className = 'bounce';
-      i.innerHTML = e;
-      return i;
-    })
-    .forEach(e => document.body.appendChild(e));
-
-  Array(3)
-    .fill('/favicon.ico')
-    .map(e => {
-      const i = document.createElement('img');
-      i.className = 'bounce';
-      i.src = e;
-      return i;
-    })
-    .forEach(e => document.body.appendChild(e));
-
-  new Bouncer();
-});
+useBouncer();
 </script>
 
 <template>

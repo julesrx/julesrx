@@ -1,4 +1,4 @@
-### Hello there ✌
+### Hello there :v:
 
 I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with Vue, Typescript, .NET and other recent stuff.
 
