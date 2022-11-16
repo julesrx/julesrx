@@ -8,7 +8,9 @@ export default defineConfig({
       sans: ['Inter', uno.theme!.fontFamily!.sans]
     }
   },
-  shortcuts: { bounce: 'h-6 w-6 opacity-20 sm:opacity-40 lg:opacity-100 rounded-full -z-1' },
+  shortcuts: {
+    bounce: 'h-6 w-6 opacity-20 sm:opacity-40 lg:opacity-100 rounded-full -z-1 animate-fade-in'
+  },
   presets: [
     uno,
     presetTypography({
