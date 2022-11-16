@@ -5,9 +5,9 @@ useBouncer();
 </script>
 
 <template>
-  <Body
-    class="bg-[#0d1117] color-[#c9d1d9] lg:p-16 md:p-10 p-2 font-sans m-0 overflow-x-hidden"
-  ></Body>
+  <Html class="font-sans" />
+
+  <Body class="bg-[#0d1117] color-[#c9d1d9] lg:p-16 md:p-10 p-2 m-0 overflow-x-hidden" />
 
   <Head>
     <Meta name="title" :content="config.title" />
