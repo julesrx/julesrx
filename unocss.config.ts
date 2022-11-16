@@ -1,4 +1,5 @@
 import { defineConfig, presetUno, presetTypography } from 'unocss';
+import config from './app.config';
 
 const uno = presetUno();
 
@@ -18,7 +19,7 @@ export default defineConfig({
         'h3>a': { color: 'inherit' },
         'h4>a': { color: 'inherit' },
         a: {
-          color: '#2ecc71',
+          color: '#' + config.color,
           'text-decoration': 'none'
         },
         code: {

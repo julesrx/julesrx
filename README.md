@@ -11,7 +11,7 @@ I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫
 #### Bio
 
 - 🐧 Daily driving [Linux](https://pop.system76.com/)
-- 😍 Loving [Vue](https://v3.vuejs.org/), [Vite](https://vitejs.dev/) and [UnoCSS](https://uno.antfu.me/)
+- 😍 Loving [Vue](https://vuejs.org/), [Vite](https://vitejs.dev/) and [UnoCSS](https://github.com/unocss/unocss/)
 - 🌱 Contributing to Open Source
 - 👨‍💻 Coding daily `.cs`, `.ts`, `.js`, `.sql`, `.yml`
 - 🎮 Halo & Destiny player
