@@ -1,22 +1,23 @@
 {
   "name": "julesrx.fr",
-  "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite --port 5173",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.14",
+    "@unocss/reset": "^0.46.5",
     "bouncing-element": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^18.11.2",
-    "marked": "^4.1.1",
-    "unplugin": "^0.10.0",
-    "vite": "^3.1.8",
-    "vite-plugin-windicss": "^1.8.8",
-    "windicss": "^3.5.6"
+    "@nuxt/content": "^2.2.2",
+    "@unocss/nuxt": "^0.46.5",
+    "@unocss/preset-typography": "^0.46.5",
+    "nuxt": "3.0.0",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3",
+    "vue-tsc": "^1.0.9"
   }
 }

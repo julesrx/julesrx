@@ -1,0 +1,14 @@
+.prose {
+  & > :first-child {
+    margin-top: 0;
+  }
+}
+
+#readme {
+  code {
+    &::before,
+    &::after {
+      content: '';
+    }
+  }
+}

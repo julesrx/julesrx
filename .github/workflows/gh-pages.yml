@@ -13,7 +13,7 @@ jobs:
       run: |
           npm i -g pnpm@6
           pnpm i
-          pnpm build
+          pnpm generate
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
