@@ -1,5 +1,4 @@
 export default defineAppConfig({
-  color: '2ecc71',
   url: 'https://julesrx.fr/',
   title: 'Jules Raffoux',
   description:
