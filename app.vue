@@ -43,10 +43,6 @@ useBouncer();
       <NuxtLink to="/">
         <img src="/favicon.ico" class="h-24 w-24 rounded-full" :alt="config.title" />
       </NuxtLink>
-
-      <nav v-if="false">
-        <NuxtLink to="/projects">Projects</NuxtLink>
-      </nav>
     </header>
 
     <NuxtPage />
