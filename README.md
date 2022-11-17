@@ -1,6 +1,6 @@
 ### Hello there :v:
 
-I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with Vue, Typescript, .NET and other recent stuff.
+I'm Jules, a full stack developer at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with Vue, Typescript, .NET and other recent stuff.
 
 #### Now
 
@@ -13,7 +13,7 @@ I'm a full stack dev at [bewease](https://bewease.fr/) in [Bordeaux, France 🇫
 - 🐧 Daily driving [Linux](https://pop.system76.com/)
 - 😍 Loving [Vue](https://vuejs.org/), [Vite](https://vitejs.dev/) and [UnoCSS](https://github.com/unocss/unocss/)
 - 🌱 Contributing to Open Source
-- 👨‍💻 Coding daily `.cs`, `.ts`, `.js`, `.sql`, `.yml`
+- 👨‍💻 Coding daily `.cs`, `.ts`, `.vue`, `.sql`, `.yml`
 - 🎮 Halo & Destiny player
 - 📫 Can be reached on [Twitter](https://twitter.com/julesrafx) and [GitHub](https://github.com/julesrx)
 
