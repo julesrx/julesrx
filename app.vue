@@ -13,7 +13,7 @@ useBouncer();
     <Meta name="title" :content="config.title" />
     <Meta name="description" :content="config.description" />
     <Meta name="viewport" content="width=device-width, initial-scale=1" />
-    <Meta name="theme-color" :content="'#' + config.color" />
+    <Meta name="theme-color" content="#2ecc71" />
     <Meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
     <!-- Twitter -->
