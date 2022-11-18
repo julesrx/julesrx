@@ -7,7 +7,7 @@ useBouncer();
 <template>
   <Html class="font-sans" />
 
-  <Body class="bg-[#0d1117] color-[#c9d1d9] lg:p-16 md:p-10 p-2 m-0 overflow-x-hidden" />
+  <Body class="bg-[#0d1117] color-[#c9d1d9] lg:px-16 lg:pt-16 md:px-10 md:pt-10 px-2 pt-2 m-0 overflow-x-hidden" />
 
   <Head>
     <Meta name="title" :content="config.title" />
