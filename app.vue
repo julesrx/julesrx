@@ -1,13 +1,14 @@
 <script setup lang="ts">
 const config = useAppConfig();
-
 useBouncer();
 </script>
 
 <template>
   <Html class="font-sans" />
 
-  <Body class="bg-[#0d1117] color-[#c9d1d9] lg:px-16 lg:pt-16 md:px-10 md:pt-10 px-2 pt-2 m-0 overflow-x-hidden" />
+  <Body
+    class="bg-[#0d1117] color-[#c9d1d9] lg:px-14 lg:pt-14 md:px-9 md:pt-9 px-2 pt-2 m-0 overflow-x-hidden"
+  />
 
   <Head>
     <Meta name="title" :content="config.title" />

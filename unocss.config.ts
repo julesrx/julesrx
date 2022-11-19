@@ -15,6 +15,7 @@ export default defineConfig({
     uno,
     presetTypography({
       cssExtend: {
+        h4: { 'margin-bottom': '0.5em' },
         'h3>a': { color: 'inherit' },
         'h4>a': { color: 'inherit' },
         a: {
@@ -32,10 +33,10 @@ export default defineConfig({
           'margin-top': '2em',
           'margin-bottom': '2em'
         },
-        ul: { 'margin-left': '40px' },
+        ul: { 'margin-left': '2em' },
         li: {
           'padding-left': '.8em',
-          margin: '.5em 0'
+          margin: '.4em 0'
         }
       }
     })
