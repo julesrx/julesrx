@@ -12,9 +12,7 @@ useBouncer();
 
   <main>
     <header class="flex items-end mb-4 space-x-4 justify-between">
-      <NuxtLink to="/">
-        <img src="/favicon.ico" class="h-24 w-24 rounded-full" :alt="config.title" />
-      </NuxtLink>
+      <img src="/favicon.ico" class="h-24 w-24 rounded-full" :alt="config.title" />
     </header>
 
     <NuxtPage />
