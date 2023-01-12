@@ -8,14 +8,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.3.1
+    - name: Checkout
+      uses: actions/checkout@v3
+
     - name: Install and Build
       run: |
-          npm i -g pnpm@6
+          npm i -g pnpm@7
           pnpm i
           pnpm generate
+          
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.1.5
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        branch: gh-pages
-        folder: dist
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: dist
