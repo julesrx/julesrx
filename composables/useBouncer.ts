@@ -1,7 +1,6 @@
-// @unocss-include
 import Bouncer from 'bouncing-element';
 
-const emojis = ['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🏍', '🐸', '🚀'];
+const emojis = ['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🎬', '🏍', '🐸', '🚀'];
 
 export default function () {
   onMounted(() => {
