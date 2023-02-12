@@ -4,8 +4,8 @@ const description =
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@unocss/nuxt'],
-  css: ['@fontsource/inter', '@unocss/reset/tailwind.css', '@/assets/main.scss'],
+  modules: ['@nuxt/content' ],
+  css: ['@fontsource/inter', 'chota/dist/chota.min.css', '@/assets/main.scss'],
   typescript: { typeCheck: true, strict: true },
   appConfig: { title },
   app: {

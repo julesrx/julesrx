@@ -7,6 +7,7 @@ specifiers:
   '@unocss/preset-typography': ^0.48.4
   '@unocss/reset': ^0.48.4
   bouncing-element: ^1.0.7
+  chota: ^0.8.1
   nuxt: 3.0.0
   sass: ^1.57.1
   typescript: ^4.9.4
@@ -16,6 +17,7 @@ dependencies:
   '@fontsource/inter': 4.5.15
   '@unocss/reset': 0.48.4
   bouncing-element: 1.0.7
+  chota: 0.8.1
 
 devDependencies:
   '@nuxt/content': 2.3.0
@@ -1715,6 +1717,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /chota/0.8.1:
+    resolution: {integrity: sha512-rmHYxgk1jMQXVjrl4ChMUsDiyA0nDjfCUoL3aEuVrlLvi+1pd2i/LOfxsAD9uhKbjqe9J0tjhWldIzr52pvzXg==}
+    dev: false
 
   /chownr/2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
