@@ -6,7 +6,7 @@ useBouncer();
 <template>
   <main>
     <header>
-      <img src="/favicon.ico" :alt="config.title" />
+      <img src="/jules.png" :alt="config.title" />
     </header>
 
     <NuxtPage />
