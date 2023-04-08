@@ -56,6 +56,10 @@ header {
     color: var(--font-color);
     padding: 0;
   }
+
+  img {
+    opacity: 0.9;
+  }
 }
 
 .bounce {
@@ -71,6 +75,16 @@ header {
 
   @media (min-width: $size-lg) {
     opacity: 1;
+  }
+
+  @media (max-width: $size-lg) {
+    &:nth-child(even) {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion) {
+    display: none;
   }
 }
 
