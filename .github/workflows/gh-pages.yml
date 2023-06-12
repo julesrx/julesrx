@@ -13,7 +13,7 @@ jobs:
 
     - name: Install and Build
       run: |
-          npm i -g pnpm@7
+          npm i -g pnpm@8
           pnpm i
           pnpm generate
           
