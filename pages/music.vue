@@ -1,6 +1,6 @@
 <script setup lang="ts">
 let albums = useMusic();
-const gridSize = Math.ceil(Math.sqrt(albums.length));
+const template = `repeat(${Math.floor(Math.sqrt(albums.length))}, 1fr)`;
 </script>
 
 <template>
@@ -8,15 +8,15 @@ const gridSize = Math.ceil(Math.sqrt(albums.length));
     <div
       id="mosaic"
       :style="{
-        'grid-template-columns': `repeat(${gridSize}, 1fr)`,
-        'grid-template-rows': `repeat(${gridSize}, 1fr)`
+        'grid-template-columns': template,
+        'grid-template-rows': template
       }"
     >
       <NuxtLink
         :to="a.link"
         target="_blank"
-        v-for="a in albums"
-        :key="a.title"
+        v-for="(a, i) in albums"
+        :key="i"
         :title="`${a.title} - ${a.artist}`"
       >
         <NuxtImg :src="a.poster" format="webp" height="50" width="50" :alt="a.title" />
