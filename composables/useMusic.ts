@@ -1,8 +1,4 @@
 /*
-grace
-nectar joji
-in tongues
-hounds of love
 lucid lookas
 DSVII M83
 summer touch
@@ -98,7 +94,9 @@ const enum Artist {
   Gorillaz = 'Gorillaz',
   Incubus = 'Incubus',
   InfectedMushroom = 'Infected Mushroom',
-  JeffBuckley = 'Jeff Buckley'
+  JeffBuckley = 'Jeff Buckley',
+  Joji = 'Joji',
+  KateBush = 'Kate Bush'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -289,6 +287,24 @@ const albums: Album[] = [
     Artist.JeffBuckley,
     'https://open.spotify.com/album/7yQtjAjhtNi76KRu05XWFS',
     'grace.jpg'
+  ),
+  album(
+    'Nectar',
+    Artist.Joji,
+    'https://open.spotify.com/album/5EzDhyNZuO7kuaABHwbBKX',
+    'nectar.jpg'
+  ),
+  album(
+    'In Tongues',
+    Artist.Joji,
+    'https://open.spotify.com/album/6ZksrxRWlJ7ExylPyJwfLJ',
+    'in-tongues.jpg'
+  ),
+  album(
+    'Hounds Of Love',
+    Artist.KateBush,
+    'https://open.spotify.com/album/5G5UwqPsxDKpxJLX4xsyuh',
+    'hounds-of-lLove.jpg'
   )
 ];
 
