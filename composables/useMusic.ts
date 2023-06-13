@@ -1,8 +1,4 @@
 /*
-demon days
-plastic beach
-make yourself
-head of nasa and the 2 amish boys
 grace
 nectar joji
 in tongues
@@ -98,7 +94,11 @@ const enum Artist {
   DaftPunk = 'Daft Punk',
   DavidBowie = 'David Bowie',
   Desired = 'Desired',
-  Eagles = 'Eagles'
+  Eagles = 'Eagles',
+  Gorillaz = 'Gorillaz',
+  Incubus = 'Incubus',
+  InfectedMushroom = 'Infected Mushroom',
+  JeffBuckley = 'Jeff Buckley'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -259,6 +259,36 @@ const albums: Album[] = [
     Artist.Eagles,
     'https://open.spotify.com/album/2widuo17g5CEC66IbzveRu',
     'hotel-california.jpg'
+  ),
+  album(
+    'Demon Days',
+    Artist.Gorillaz,
+    'https://open.spotify.com/album/0bUTHlWbkSQysoM3VsWldT',
+    'demon-days.jpg'
+  ),
+  album(
+    'Plastic Beach',
+    Artist.Gorillaz,
+    'https://open.spotify.com/album/2dIGnmEIy1WZIcZCFSj6i8',
+    'plastic-beach.jpeg'
+  ),
+  album(
+    'Make Yourself',
+    Artist.Incubus,
+    'https://open.spotify.com/album/2i6nd4FV6y7K9fln6eelmR',
+    'make-yourself.jpg'
+  ),
+  album(
+    'Head of NASA and the 2 Amish Boys',
+    Artist.InfectedMushroom,
+    'https://open.spotify.com/album/5VVuvHfpofdhT6ExslEk2B',
+    'head-of-nasa.jpg'
+  ),
+  album(
+    'Grace',
+    Artist.JeffBuckley,
+    'https://open.spotify.com/album/7yQtjAjhtNi76KRu05XWFS',
+    'grace.jpg'
   )
 ];
 
