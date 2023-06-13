@@ -1,8 +1,4 @@
 /*
-lucid lookas
-DSVII M83
-summer touch
-Halo 2 vol 1 & 2
 all of me 
 seychelles
 collected massive attack
@@ -96,7 +92,12 @@ const enum Artist {
   InfectedMushroom = 'Infected Mushroom',
   JeffBuckley = 'Jeff Buckley',
   Joji = 'Joji',
-  KateBush = 'Kate Bush'
+  KateBush = 'Kate Bush',
+  Lookas = 'Lookas',
+  M83 = 'M83',
+  Macross8299 = 'Macross 82-99',
+  Halo2Vol1 = "Martin O'Donnell, Michael Salvatori, Incubus, Nataraj, Nile Rodgers, Hoobastank, Breaking Benjamin",
+  Halo2Vol2 = "Martin O'Donnell, Michael Salvatori"
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -305,6 +306,31 @@ const albums: Album[] = [
     Artist.KateBush,
     'https://open.spotify.com/album/5G5UwqPsxDKpxJLX4xsyuh',
     'hounds-of-lLove.jpg'
+  ),
+  album(
+    'Lucid',
+    Artist.Lookas,
+    'https://open.spotify.com/album/5eWvwGl3wUpFJwloxPpyaH',
+    'lucid.jpg'
+  ),
+  album('DSVII', Artist.M83, 'https://open.spotify.com/album/1Pyu7uKUDKNhdsYDL82Wkg', 'dsvii.jpg'),
+  album(
+    'Summer Touch',
+    Artist.Macross8299,
+    'https://open.spotify.com/album/3uIjfqtbqXC1C09RDF2BvK',
+    'summer-touch.jpg'
+  ),
+  album(
+    'Halo 2, Vol. 1',
+    Artist.Halo2Vol1,
+    'https://open.spotify.com/album/29K85ghxBzcQHPNPX6QVld',
+    'halo-2-vol-1.jpg'
+  ),
+  album(
+    'Halo 2, Vol. 2',
+    Artist.Halo2Vol2,
+    'https://open.spotify.com/album/3rkOmkp3M2pc6jNALIKMvg',
+    'halo-2-vol-2.jpg'
   )
 ];
 
