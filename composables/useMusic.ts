@@ -1,8 +1,4 @@
 /*
-rhcp chorsow 2007
-jagged little pill
-noonate cinq
-positions
 AMOK
 hey u x
 you come and go like a pop song
@@ -104,4 +100,54 @@ bae yung bae
 mirai addiction
 */
 
-type Album = { title: string; artist: string; link: string; poster: string };
+const enum Artist {
+  RHCP = 'Red Hot Chili Peppers',
+  Morissette = 'Alanis Morissette',
+  Angele = 'Angèle',
+  ArianaGrande = 'Ariana Grande'
+}
+
+const albums: Album[] = [
+  {
+    title: 'Final Jam (Live at Chorzów 2007)',
+    artist: Artist.RHCP,
+    link: 'https://youtu.be/T5V9eaiKuxo',
+    poster: 'rhcp-chorzow-2007.jpg'
+  },
+  {
+    title: 'Jagged Little Pill',
+    artist: Artist.Morissette,
+    link: 'https://open.spotify.com/album/5Ap3F8CxjjsQKZGASDcHNA',
+    poster: 'jagged-little-pill.jpg'
+  },
+  {
+    title: 'Nonante-Cinq',
+    artist: Artist.Angele,
+    link: 'https://open.spotify.com/album/3I756vFQ1PWvG2Q2jJsIkA',
+    poster: 'nonante-cinq.jpg'
+  },
+  {
+    title: 'Positions',
+    artist: Artist.ArianaGrande,
+    link: 'https://open.spotify.com/album/3euz4vS7ezKGnNSwgyvKcd',
+    poster: 'positions.jpg'
+  }
+];
+
+const shuffle = <T>(array: T[]): T[] => {
+  let currentIndex = array.length;
+  let randomIndex;
+
+  while (currentIndex != 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+};
+
+export default function (): Album[] {
+  return shuffle(albums);
+}
