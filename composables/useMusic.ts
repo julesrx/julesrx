@@ -1,10 +1,6 @@
 /*
-mignonne
-orphic
-hoodie tiffi
-the eraser
-sunshine kitty
-wueen of the clouds
+
+
 lady wood
 astro world
 v vald
@@ -76,7 +72,11 @@ const enum Artist {
   Slipknot = 'Slipknot',
   TheSmile = 'The Smile',
   SneakerPimps = 'Sneaker Pimps',
-  Starjunk95 = 'Starjunk 95'
+  Starjunk95 = 'Starjunk 95',
+  TaekoOnuki = 'Taeko Onuki',
+  Tessina = 'tessina',
+  ThomYorke = 'Thom Yorke',
+  ToveLo = 'Tove Lo'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -599,6 +599,36 @@ const albums: Album[] = [
     Artist.Starjunk95,
     'https://open.spotify.com/album/02l0raSv3gwKdieSlpgiFA',
     'plastic-memories.jpg'
+  ),
+  album(
+    'MIGNONNE',
+    Artist.TaekoOnuki,
+    'https://open.spotify.com/album/0Y4RPWAZZui6gUL1kwgND6',
+    'mignonne.jpg'
+  ),
+  album(
+    'orphic',
+    Artist.Tessina,
+    'https://open.spotify.com/album/5efYmjgweNMJL13b6SSG2w',
+    'orphic.jpeg'
+  ),
+  album(
+    'The Eraser',
+    Artist.ThomYorke,
+    'https://open.spotify.com/album/4X8Y79gWo6xm7Osdapg58E',
+    'the-eraser.jpg'
+  ),
+  album(
+    'Sunshine Kitty',
+    Artist.ToveLo,
+    'https://open.spotify.com/album/5kaCqETtik8oE7M9D8wxrW',
+    'sunshine-kitty.jpg'
+  ),
+  album(
+    'Queen Of The Clouds',
+    Artist.ToveLo,
+    'https://open.spotify.com/album/5Z5O36p7BivXzkucc0PAfw',
+    'queen-of-the-clouds.jpg'
   )
 ];
 
