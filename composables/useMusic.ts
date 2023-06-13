@@ -1,11 +1,3 @@
-/*
-record
-bae yung bae
-mirai addiction
-fruiscante albulm
-damso
-*/
-
 const enum Artist {
   RHCP = 'Red Hot Chili Peppers',
   Morissette = 'Alanis Morissette',
@@ -74,7 +66,12 @@ const enum Artist {
   TheWeeknd = 'The Weeknd',
   WILLOW = 'WILLOW',
   WithinTemptation = 'Within Temptation',
-  Yaeji = 'Yaeji'
+  Yaeji = 'Yaeji',
+  Zero7 = 'Zero 7',
+  YungBae = 'Yung Bae',
+  Mirai = 'ぷにぷに電機',
+  JohnFrusciante = 'John Frusciante',
+  Damso = 'Damso'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -665,7 +662,32 @@ const albums: Album[] = [
     'https://open.spotify.com/album/1EvpTfBqlDzPwDYzWTgTw3',
     'the-unforgiving.jpg'
   ),
-  album('EP2', Artist.Yaeji, 'https://open.spotify.com/album/6zB32HTy4cewV8V7TuHzKJ', 'ep2.jpg')
+  album('EP2', Artist.Yaeji, 'https://open.spotify.com/album/6zB32HTy4cewV8V7TuHzKJ', 'ep2.jpg'),
+  album(
+    'RECORD',
+    Artist.Zero7,
+    'https://open.spotify.com/album/7zzSukXVNC1jAHEK7vY7Bq',
+    'record.jpg'
+  ),
+  album('Bae', Artist.YungBae, 'https://open.spotify.com/album/5o0FlSEgJSc3pk5oLoMQbH', 'bae.jpg'),
+  album(
+    'MIRAI Addiction',
+    Artist.Mirai,
+    'https://open.spotify.com/album/1EcEzuHM9YrjhPDUvnEe72',
+    'mirai.jpg'
+  ),
+  album(
+    'Shadows Collide With People',
+    Artist.JohnFrusciante,
+    'https://open.spotify.com/album/7BYMJZFCYuGKi2jblMhyxg',
+    'shadows-collide-with-people.jpg'
+  ),
+  album(
+    'QALF infinity',
+    Artist.Damso,
+    'https://open.spotify.com/album/2Cv2mrKMRyYuXJTlQmY4hj',
+    'qalf-infinity.jpg'
+  )
 ];
 
 export default function (): Album[] {
