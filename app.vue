@@ -6,7 +6,11 @@ useBouncer();
 <template>
   <main>
     <header>
-      <img src="/jules.png" :alt="config.title" />
+      <NuxtLink to="/">
+        <img src="/jules.png" :alt="config.title" />
+      </NuxtLink>
+
+      <NuxtLink to="/music" class="music">🎶</NuxtLink>
     </header>
 
     <NuxtPage />

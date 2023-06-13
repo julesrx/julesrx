@@ -8,6 +8,15 @@
   --font-size: 16px;
 }
 
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.1s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
 $size-sm: 768px;
 $size-lg: 1024px;
 
@@ -38,10 +47,27 @@ body {
 }
 
 header {
+  position: relative;
+
+  a {
+    &:hover:not(.button) {
+      opacity: 1;
+    }
+  }
+
   img {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+  }
+
+  .music {
+    position: absolute;
+    right: 0;
+
+    @media (max-width: $size-sm) {
+      display: none;
+    }
   }
 }
 
@@ -66,7 +92,7 @@ header {
   width: 1.5rem;
   height: 1.5rem;
   animation: fade-in 1s linear 1;
-  z-index: -1;
+  z-index: -2;
   opacity: 0.2;
 
   @media (min-width: $size-sm) {

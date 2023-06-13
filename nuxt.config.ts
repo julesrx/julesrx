@@ -4,11 +4,13 @@ const description =
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxt/image-edge'],
   css: ['@fontsource/inter', 'chota/dist/chota.min.css', '@/assets/main.scss'],
   typescript: { typeCheck: true, strict: true },
   appConfig: { title },
+  image: { dir: 'assets/albums' },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       htmlAttrs: { lang: 'fr' },
       title,
