@@ -1,9 +1,4 @@
 /*
-bloodsport
-squaring the circle
-becoming x
-virtual paradire
-plastic memories
 mignonne
 orphic
 hoodie tiffi
@@ -79,7 +74,9 @@ const enum Artist {
   RIOT = 'RIOT',
   Sewerslvt = 'Sewerslvt',
   Slipknot = 'Slipknot',
-  TheSmile = 'The Smile'
+  TheSmile = 'The Smile',
+  SneakerPimps = 'Sneaker Pimps',
+  Starjunk95 = 'Starjunk 95'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -572,6 +569,36 @@ const albums: Album[] = [
     Artist.TheSmile,
     'https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi',
     'a-light-for-attracting-attention.jpg'
+  ),
+  album(
+    'Bloodsport',
+    Artist.SneakerPimps,
+    'https://open.spotify.com/album/0V1zcB4nkvqbJiu9KZjj5M',
+    'bloodsport.jpg'
+  ),
+  album(
+    'Squaring The Circle',
+    Artist.SneakerPimps,
+    'https://open.spotify.com/album/0npeEzm8BfqZ1YwnzlvfA7',
+    'squaring-the-circle.jpg'
+  ),
+  album(
+    'Becoming X',
+    Artist.SneakerPimps,
+    'https://open.spotify.com/album/3Skq5OhENzzRDMSx5FPrx3',
+    'becoming-x.jpg'
+  ),
+  album(
+    'Virtual Paradise',
+    Artist.Starjunk95,
+    'https://open.spotify.com/album/5dTsAGwJrgSvsg2YRAaU2i',
+    'virtual-paradise.jpg'
+  ),
+  album(
+    'Plastic Memories EP',
+    Artist.Starjunk95,
+    'https://open.spotify.com/album/02l0raSv3gwKdieSlpgiFA',
+    'plastic-memories.jpg'
   )
 ];
 
