@@ -16,14 +16,3 @@ useBouncer();
     <NuxtPage />
   </main>
 </template>
-
-<style scoped lang="scss">
-header {
-  position: relative;
-
-  .music {
-    position: absolute;
-    right: 0;
-  }
-}
-</style>

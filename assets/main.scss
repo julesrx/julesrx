@@ -8,6 +8,15 @@
   --font-size: 16px;
 }
 
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.1s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
 $size-sm: 768px;
 $size-lg: 1024px;
 
@@ -38,6 +47,8 @@ body {
 }
 
 header {
+  position: relative;
+
   a {
     &:hover:not(.button) {
       opacity: 1;
@@ -48,6 +59,15 @@ header {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+  }
+
+  .music {
+    position: absolute;
+    right: 0;
+
+    @media (max-width: $size-sm) {
+      display: none;
+    }
   }
 }
 

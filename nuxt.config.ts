@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   appConfig: { title },
   image: { dir: 'assets/albums' },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       htmlAttrs: { lang: 'fr' },
       title,
