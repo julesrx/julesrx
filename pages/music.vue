@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const albums = useMusic();
+let albums = useMusic();
 </script>
 
 <template>

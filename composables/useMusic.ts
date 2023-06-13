@@ -1,8 +1,4 @@
 /*
-all of me 
-seychelles
-collected massive attack
-mezzanine
 heroes and vollains
 AIM
 Destiny taken king
@@ -97,7 +93,9 @@ const enum Artist {
   M83 = 'M83',
   Macross8299 = 'Macross 82-99',
   Halo2Vol1 = "Martin O'Donnell, Michael Salvatori, Incubus, Nataraj, Nile Rodgers, Hoobastank, Breaking Benjamin",
-  Halo2Vol2 = "Martin O'Donnell, Michael Salvatori"
+  Halo2Vol2 = "Martin O'Donnell, Michael Salvatori",
+  MasayoshiTakanaka = 'Masayoshi Takanaka',
+  MassiveAttack = 'Massive Attack'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -331,6 +329,30 @@ const albums: Album[] = [
     Artist.Halo2Vol2,
     'https://open.spotify.com/album/3rkOmkp3M2pc6jNALIKMvg',
     'halo-2-vol-2.jpg'
+  ),
+  album(
+    'All Of Me',
+    Artist.MasayoshiTakanaka,
+    'https://open.spotify.com/playlist/4P8CfUPlsEeP4SvmQ0vHtb',
+    'all-of-me.jpg'
+  ),
+  album(
+    'SEYCHELLES',
+    Artist.MasayoshiTakanaka,
+    'https://open.spotify.com/album/7BQPfd39YTObQGamGhDF7g',
+    'seychelles.jpg'
+  ),
+  album(
+    'Collected',
+    Artist.MassiveAttack,
+    'https://open.spotify.com/album/1X4zW7kIY8bQHO9gDTsIVh',
+    'collected.jpg'
+  ),
+  album(
+    'Mezzanine',
+    Artist.MassiveAttack,
+    'https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR',
+    'mezzanine.jpg'
   )
 ];
 
