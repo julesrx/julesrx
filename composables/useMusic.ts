@@ -1,12 +1,4 @@
 /*
-nicole
-des viages des figures
-perdu d'avance
-la fête est finie
-animals
-dark side of the moon
-wish you were here
-the wall
 to hell with it
 to be one with you
 nurture
@@ -93,7 +85,11 @@ const enum Artist {
   MisterV = 'Mister V',
   Modjo = 'Modjo',
   Muse = 'Muse',
-  NickDrake = 'Nick Drake'
+  NickDrake = 'Nick Drake',
+  NIKI = 'NIKI',
+  NoirDesir = 'Noir Désir',
+  Orelsan = 'Orelsan',
+  PinkFloyd = 'Pink Floyd'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -412,6 +408,54 @@ const albums: Album[] = [
     Artist.NickDrake,
     'https://open.spotify.com/album/5mwOo1zikswhmfHvtqVSXg',
     'pink-moon.jpeg'
+  ),
+  album(
+    'Nicole',
+    Artist.NIKI,
+    'https://open.spotify.com/album/5WR7ksPLp3kqFbDLTYpGfx',
+    'nicole.jpg'
+  ),
+  album(
+    'Des visages des figures',
+    Artist.NoirDesir,
+    'https://open.spotify.com/album/2GbW5WBU1BFSChvxtt6BBH',
+    'des-visages-des-figures.jpg'
+  ),
+  album(
+    "Perdu D'Avance",
+    Artist.Orelsan,
+    'https://open.spotify.com/album/17UiqpQyl8T8vVxz2Towjy',
+    'perdu-davance.jpg'
+  ),
+  album(
+    'La fête est finie - EPILOGUE',
+    Artist.Orelsan,
+    'https://open.spotify.com/album/5nyLaTsztHW8mI1KAWeGkS',
+    'la-fete-est-finie.jpg'
+  ),
+  album(
+    'Animals',
+    Artist.PinkFloyd,
+    'https://open.spotify.com/album/21jUB9RqplD6OqtsTjKBnO',
+    'animals.jpg'
+  ),
+  album(
+    'The Dark Side Of The Moon',
+    Artist.PinkFloyd,
+    'https://open.spotify.com/album/2WT1pbYjLJciAR26yMebkH',
+    'dark-side-of-the-moon.jpg'
+  ),
+  album(
+    'Wish You Were Here',
+    Artist.PinkFloyd,
+    'https://open.spotify.com/album/6uvBKDGlJAYLH5Vy6RQVsc',
+    'whish-you-were-here.jpg'
+  ),
+  album(
+    'The Wall',
+    Artist.PinkFloyd,
+    'https://open.spotify.com/album/6WaIQHxEHtZL0RZ62AuY0g',
+    'the-wall.jpg'
   )
 ];
 
