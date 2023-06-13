@@ -1,8 +1,4 @@
 /*
-heroes and vollains
-AIM
-Destiny taken king
-music of the spheres
 MVP mister v
 modjo
 2nd law
@@ -95,7 +91,11 @@ const enum Artist {
   Halo2Vol1 = "Martin O'Donnell, Michael Salvatori, Incubus, Nataraj, Nile Rodgers, Hoobastank, Breaking Benjamin",
   Halo2Vol2 = "Martin O'Donnell, Michael Salvatori",
   MasayoshiTakanaka = 'Masayoshi Takanaka',
-  MassiveAttack = 'Massive Attack'
+  MassiveAttack = 'Massive Attack',
+  MetroBoomin = 'Metro Boomin',
+  MIA = 'M.I.A.',
+  TakenKing = 'Michael Salvatori, C Paul Johnson, Skye Lewin',
+  MartinODonnell = "Martin O'Donnell"
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -353,6 +353,25 @@ const albums: Album[] = [
     Artist.MassiveAttack,
     'https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR',
     'mezzanine.jpg'
+  ),
+  album(
+    'HEROES & VILLAINS',
+    Artist.MetroBoomin,
+    'https://open.spotify.com/album/7txGsnDSqVMoRl6RQ9XyZP',
+    'heroes-and-villains.jpg'
+  ),
+  album('AIM', Artist.MIA, 'https://open.spotify.com/album/7sZqZpGN6leR2PncwkuaUc', 'aim.jpg'),
+  album(
+    'Destiny: The Taken King',
+    Artist.TakenKing,
+    'https://open.spotify.com/album/3tTZQMWFhpj2tLEgFICy0c',
+    'taken-king.jpg'
+  ),
+  album(
+    'Music of the Spheres',
+    Artist.MartinODonnell,
+    'https://www.destinypedia.com/Music_of_the_Spheres',
+    'music-of-the-spheres.webp'
   )
 ];
 
