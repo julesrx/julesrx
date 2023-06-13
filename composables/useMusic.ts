@@ -1,14 +1,4 @@
 /*
-to hell with it
-to be one with you
-nurture
-dummy
-when marnie was there
-a moon shaped pool
-pablo honney
-kid a mnesia
-in rainbows
-spectre radiohead
 return of the dream canteen
 mother's milk
 blood sugar sex magic
@@ -89,7 +79,13 @@ const enum Artist {
   NIKI = 'NIKI',
   NoirDesir = 'Noir Désir',
   Orelsan = 'Orelsan',
-  PinkFloyd = 'Pink Floyd'
+  PinkFloyd = 'Pink Floyd',
+  PinkPantheress = 'PinkPantheress',
+  Pluralone = 'Pluralone',
+  PorterRobinson = 'Porter Robinson',
+  Portishead = 'Portishead',
+  WhenMarnieWasThere = 'When Marnie Was There Soundtrack Music Collection',
+  Radiohead = 'Radiohead'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -456,6 +452,66 @@ const albums: Album[] = [
     Artist.PinkFloyd,
     'https://open.spotify.com/album/6WaIQHxEHtZL0RZ62AuY0g',
     'the-wall.jpg'
+  ),
+  album(
+    'to hell with it',
+    Artist.PinkPantheress,
+    'https://open.spotify.com/album/65YAjLCn7Jp33nJpOxIPMe',
+    'to-hell-with-it.jpg'
+  ),
+  album(
+    'To Be One With You',
+    Artist.Pluralone,
+    'https://open.spotify.com/album/0PIPosV94hSadH43s9cpGx',
+    'to-be-one-with-you.jpg'
+  ),
+  album(
+    'Nurture',
+    Artist.PorterRobinson,
+    'https://open.spotify.com/album/4Hjqdhj5rh816i1dfcUEaM',
+    'nurture.jpg'
+  ),
+  album(
+    'Dummy',
+    Artist.Portishead,
+    'https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno',
+    'dummy.jpg'
+  ),
+  album(
+    'When Marnie Was There Soundtrack Music Collection',
+    Artist.WhenMarnieWasThere,
+    'https://open.spotify.com/album/00odo2OS2nQ1j15oeG53g2',
+    'when-marnie-was-there.jpg'
+  ),
+  album(
+    'A Moon Shaped Pool',
+    Artist.Radiohead,
+    'https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg',
+    'a-moon-shaped-pool.jpg'
+  ),
+  album(
+    'Pablo Honey',
+    Artist.Radiohead,
+    'https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8',
+    'pablo-honey.jpg'
+  ),
+  album(
+    'KID A MNESIA',
+    Artist.Radiohead,
+    'https://open.spotify.com/album/6ofEQubaL265rIW6WnCU8y',
+    'kid-a-mnesia.jpg'
+  ),
+  album(
+    'In Rainbows',
+    Artist.Radiohead,
+    'https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK',
+    'in-rainbows.jpg'
+  ),
+  album(
+    'Spectre',
+    Artist.Radiohead,
+    'https://open.spotify.com/track/4Nwrh5BlZ8I31znYQULS7G',
+    'spectre.jpg'
   )
 ];
 
