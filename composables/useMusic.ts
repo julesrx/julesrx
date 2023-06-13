@@ -1,10 +1,5 @@
 /*
-return of the dream canteen
-mother's milk
-blood sugar sex magic
-the gateway
-by the way
-stadium arcadium
+
 the red red velvet
 dogma resistance
 draining love story
@@ -512,6 +507,42 @@ const albums: Album[] = [
     Artist.Radiohead,
     'https://open.spotify.com/track/4Nwrh5BlZ8I31znYQULS7G',
     'spectre.jpg'
+  ),
+  album(
+    'Return of the Dream Canteen',
+    Artist.RHCP,
+    'https://open.spotify.com/album/0KJc9ksnoJJsdpQxV3z5i1',
+    'return-of-the-dream-canteen.jpg'
+  ),
+  album(
+    "Mother's Milk",
+    Artist.RHCP,
+    'https://open.spotify.com/album/1oOkcBu5bgkUzZTvKD1m8z',
+    'mothers-milk.jpg'
+  ),
+  album(
+    'Blood Sugar Sx Magik',
+    Artist.RHCP,
+    'https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg',
+    'blood-sugar-sx-magik.jpg'
+  ),
+  album(
+    'The Getaway',
+    Artist.RHCP,
+    'https://open.spotify.com/album/43otFXrY0bgaq5fB3GrZj6',
+    'the-getaway.jpg'
+  ),
+  album(
+    'By the Way',
+    Artist.RHCP,
+    'https://open.spotify.com/album/1jWKVgnHX8nwR551hQNx5K',
+    'by-the-way.jpg'
+  ),
+  album(
+    'Stadium Arcadium',
+    Artist.RHCP,
+    'https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ',
+    'stadium-arcadium.jpg'
   )
 ];
 
