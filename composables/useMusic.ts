@@ -1,10 +1,4 @@
 /*
-
-the red red velvet
-dogma resistance
-draining love story
-we are not your kind
-a light for attracting attention
 bloodsport
 squaring the circle
 becoming x
@@ -79,8 +73,13 @@ const enum Artist {
   Pluralone = 'Pluralone',
   PorterRobinson = 'Porter Robinson',
   Portishead = 'Portishead',
-  WhenMarnieWasThere = 'When Marnie Was There Soundtrack Music Collection',
-  Radiohead = 'Radiohead'
+  TakatsuguMuramatsu = 'Takatsugu Muramatsu',
+  Radiohead = 'Radiohead',
+  RedVelvet = 'Red Velvet',
+  RIOT = 'RIOT',
+  Sewerslvt = 'Sewerslvt',
+  Slipknot = 'Slipknot',
+  TheSmile = 'The Smile'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -474,7 +473,7 @@ const albums: Album[] = [
   ),
   album(
     'When Marnie Was There Soundtrack Music Collection',
-    Artist.WhenMarnieWasThere,
+    Artist.TakatsuguMuramatsu,
     'https://open.spotify.com/album/00odo2OS2nQ1j15oeG53g2',
     'when-marnie-was-there.jpg'
   ),
@@ -543,23 +542,39 @@ const albums: Album[] = [
     Artist.RHCP,
     'https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ',
     'stadium-arcadium.jpg'
+  ),
+  album(
+    'The Red - The 1st Album',
+    Artist.RedVelvet,
+    'https://open.spotify.com/album/6YL9J0E6PGtYzkhyMxnmXd',
+    'the-red.jpg'
+  ),
+  album(
+    'Dogma Resistance',
+    Artist.RIOT,
+    'https://open.spotify.com/album/1AUS845POFhV3oDytPImEZ',
+    'dogma-resistance.jpg'
+  ),
+  album(
+    'Draining Love Story',
+    Artist.Sewerslvt,
+    'https://open.spotify.com/album/3yQqw6ZJDHey6HZCpsrFTb',
+    'draining-love-story.jpg'
+  ),
+  album(
+    'We Are Not Your Kind',
+    Artist.Slipknot,
+    'https://open.spotify.com/album/754RY5WpZ2LTUZsk8kDBju',
+    'we-are-not-your-kind.jpg'
+  ),
+  album(
+    'A Light for Attracting Attention',
+    Artist.TheSmile,
+    'https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi',
+    'a-light-for-attracting-attention.jpg'
   )
 ];
 
-const shuffle = <T>(array: T[]): T[] => {
-  let currentIndex = array.length;
-  let randomIndex;
-
-  while (currentIndex != 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-};
-
 export default function (): Album[] {
-  return shuffle(albums);
+  return albums.sort((a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title));
 }
