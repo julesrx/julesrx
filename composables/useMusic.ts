@@ -1,15 +1,4 @@
 /*
-AMOK
-hey u x
-you come and go like a pop song
-happier than ever
-debut gjork
-post 
-twilight boa
-post human survival horror
-excursions
-life changing moment
-mionecraft volumes alpha and beta
 because the internet
 c-girl
 parachutees
@@ -104,34 +93,116 @@ const enum Artist {
   RHCP = 'Red Hot Chili Peppers',
   Morissette = 'Alanis Morissette',
   Angele = 'Angèle',
-  ArianaGrande = 'Ariana Grande'
+  ArianaGrande = 'Ariana Grande',
+  AtomsForPeace = 'Atoms For Peace',
+  Benee = 'BENEE',
+  TheBicycleThief = 'The Bicycle Thief',
+  BillieEilish = 'Billie Eilish',
+  Bjork = 'Björk',
+  Boa = 'bôa',
+  BringMeTheHorizon = 'Bring Me The Horizon',
+  C418 = 'C418'
 }
 
+const album = (title: string, artist: string, link: string, poster: string) => ({
+  title: title,
+  artist: artist,
+  link: link,
+  poster: poster
+});
+
 const albums: Album[] = [
-  {
-    title: 'Final Jam (Live at Chorzów 2007)',
-    artist: Artist.RHCP,
-    link: 'https://youtu.be/T5V9eaiKuxo',
-    poster: 'rhcp-chorzow-2007.jpg'
-  },
-  {
-    title: 'Jagged Little Pill',
-    artist: Artist.Morissette,
-    link: 'https://open.spotify.com/album/5Ap3F8CxjjsQKZGASDcHNA',
-    poster: 'jagged-little-pill.jpg'
-  },
-  {
-    title: 'Nonante-Cinq',
-    artist: Artist.Angele,
-    link: 'https://open.spotify.com/album/3I756vFQ1PWvG2Q2jJsIkA',
-    poster: 'nonante-cinq.jpg'
-  },
-  {
-    title: 'Positions',
-    artist: Artist.ArianaGrande,
-    link: 'https://open.spotify.com/album/3euz4vS7ezKGnNSwgyvKcd',
-    poster: 'positions.jpg'
-  }
+  album(
+    'Final Jam (Live at Chorzów 2007)',
+    Artist.RHCP,
+    'https://youtu.be/T5V9eaiKuxo',
+    'rhcp-chorzow-2007.jpg'
+  ),
+  album(
+    'Jagged Little Pill',
+    Artist.Morissette,
+    'https://open.spotify.com/album/5Ap3F8CxjjsQKZGASDcHNA',
+    'jagged-little-pill.jpg'
+  ),
+  album(
+    'Nonante-Cinq',
+    Artist.Angele,
+    'https://open.spotify.com/album/3I756vFQ1PWvG2Q2jJsIkA',
+    'nonante-cinq.jpg'
+  ),
+  album(
+    'Positions',
+    Artist.ArianaGrande,
+    'https://open.spotify.com/album/3euz4vS7ezKGnNSwgyvKcd',
+    'positions.jpg'
+  ),
+  album(
+    'AMOK',
+    Artist.AtomsForPeace,
+    'https://open.spotify.com/album/77Ie9frENeQwYUGHrrS0pk',
+    'amok.jpg'
+  ),
+  album(
+    'Hey u x',
+    Artist.Benee,
+    'https://open.spotify.com/album/4KKRAmQ0ksj32l7mrgLOcF',
+    'hey-u-x.jpg'
+  ),
+  album(
+    'You Come and Go Like a Pop Song',
+    Artist.TheBicycleThief,
+    'https://open.spotify.com/album/5FMnvaW58gXVjl23BiA9FS',
+    'you-come-and-go.jpeg'
+  ),
+  album(
+    'Happier Than Ever',
+    Artist.BillieEilish,
+    'https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp',
+    'happier-than-ever.jpg'
+  ),
+  album(
+    'Debut',
+    Artist.Bjork,
+    'https://open.spotify.com/album/2Fb37JsRMVPASJcl3wwDOa',
+    'debut.jpg'
+  ),
+  album('Post', Artist.Bjork, 'https://open.spotify.com/album/3p7WXDBxhC5KS9IFXnwae7', 'post.jpg'),
+  album(
+    'Twilight',
+    Artist.Boa,
+    'https://open.spotify.com/album/7sGYAV0xv7ZfAMzIpMl8m1',
+    'twilight.jpg'
+  ),
+  album(
+    'POST HUMAN: SURVIVAL HORROR',
+    Artist.BringMeTheHorizon,
+    'https://open.spotify.com/album/0e1WaSNDZnoPixaxDNdWo4',
+    'post-human-survival-horror.jpg'
+  ),
+  album(
+    'Excursions',
+    Artist.C418,
+    'https://open.spotify.com/album/4mW73jKDNYQzWdkQR3BvTZ',
+    'excursions.jpg'
+  ),
+  album(
+    'Life Changing Moments Seem Minor in Pictures',
+    Artist.C418,
+    'https://open.spotify.com/album/1xvYnbUkrhFBkZ0w7Er3As',
+    'life-changing-moment.jpg'
+  ),
+  album(
+    'Minecraft - Volume Alpha',
+    Artist.C418,
+    'https://open.spotify.com/album/3Gt7rOjcZQoHCfnKl5AkK7',
+    'minecraft-alpha.jpg'
+  ),
+  album(
+    'Minecraft - Volume Beta',
+    Artist.C418,
+    'https://open.spotify.com/album/7CYDRyFCKtAYJBSpfovLyX',
+    'minecraft-beta.jpg'
+  )
 ];
 
 const shuffle = <T>(array: T[]): T[] => {

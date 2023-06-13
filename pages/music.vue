@@ -3,10 +3,22 @@ const albums = useMusic();
 </script>
 
 <template>
-  <div>
-    <div v-for="a in albums" :key="a.title">
-      {{ a }}
-      <NuxtImg :src="a.poster" format="webp" :alt="a.title" />
-    </div>
+  <div style="display: grid; grid-template-columns: repeat(10, 1fr)">
+    <NuxtLink
+      :to="a.link"
+      target="_blank"
+      v-for="a in albums"
+      :key="a.title"
+      style="display: block"
+    >
+      <NuxtImg
+        :src="a.poster"
+        format="webp"
+        height="200"
+        width="200"
+        :alt="a.title"
+        style="display: block"
+      />
+    </NuxtLink>
   </div>
 </template>
