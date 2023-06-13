@@ -9,6 +9,7 @@ let albums = useMusic();
       target="_blank"
       v-for="a in albums"
       :key="a.title"
+      :title="`${a.title} - ${a.artist}`"
       style="display: block"
     >
       <NuxtImg

@@ -1,11 +1,4 @@
 /*
-MVP mister v
-modjo
-2nd law
-showbiz
-origin of symetry
-hullaballoo
-pink moon
 nicole
 des viages des figures
 perdu d'avance
@@ -57,6 +50,7 @@ ep2
 record
 bae yung bae
 mirai addiction
+fruiscante albulm
 */
 
 const enum Artist {
@@ -95,7 +89,11 @@ const enum Artist {
   MetroBoomin = 'Metro Boomin',
   MIA = 'M.I.A.',
   TakenKing = 'Michael Salvatori, C Paul Johnson, Skye Lewin',
-  MartinODonnell = "Martin O'Donnell"
+  MartinODonnell = "Martin O'Donnell",
+  MisterV = 'Mister V',
+  Modjo = 'Modjo',
+  Muse = 'Muse',
+  NickDrake = 'Nick Drake'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -372,6 +370,48 @@ const albums: Album[] = [
     Artist.MartinODonnell,
     'https://www.destinypedia.com/Music_of_the_Spheres',
     'music-of-the-spheres.webp'
+  ),
+  album(
+    'MVP (Réédition)',
+    Artist.MisterV,
+    'https://open.spotify.com/album/2S6HuDg9fWVsNMOw5OpTgu',
+    'mvp.jpg'
+  ),
+  album(
+    'Modjo',
+    Artist.Modjo,
+    'https://open.spotify.com/album/0vwDxngkhZuwNbcxzebCXI',
+    'modjo.jpg'
+  ),
+  album(
+    'The 2nd Law',
+    Artist.Muse,
+    'https://open.spotify.com/album/3KuXEGcqLcnEYWnn3OEGy0',
+    '2nd-law.jpg'
+  ),
+  album(
+    'Showbiz',
+    Artist.Muse,
+    'https://open.spotify.com/album/6AyUVv7MnxxTuijp4WmrhO',
+    'showbiz.jpg'
+  ),
+  album(
+    'Origin of Symmetry',
+    Artist.Muse,
+    'https://open.spotify.com/album/1Dh27pjT3IEdiRG9Se5uQn',
+    'origin-of-symmetry.jpg'
+  ),
+  album(
+    'Hullabaloo Soundtrack',
+    Artist.Muse,
+    'https://open.spotify.com/album/5eJTvSeghTKoqN3Ly4TqEf',
+    'hullabaloo.jpg'
+  ),
+  album(
+    'Pink Moon',
+    Artist.NickDrake,
+    'https://open.spotify.com/album/5mwOo1zikswhmfHvtqVSXg',
+    'pink-moon.jpeg'
   )
 ];
 
