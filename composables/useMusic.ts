@@ -1,14 +1,4 @@
 /*
-because the internet
-c-girl
-parachutees
-discovery
-random acces memory
-tron
-alive 2007
-rise and fall of ziggy stardust
-nineteen desired
-hotel california
 demon days
 plastic beach
 make yourself
@@ -101,7 +91,14 @@ const enum Artist {
   Bjork = 'Björk',
   Boa = 'bôa',
   BringMeTheHorizon = 'Bring Me The Horizon',
-  C418 = 'C418'
+  C418 = 'C418',
+  ChildishGambino = 'Childish Gambino',
+  CityGirl = 'City Girl',
+  Coldplay = 'Coldplay',
+  DaftPunk = 'Daft Punk',
+  DavidBowie = 'David Bowie',
+  Desired = 'Desired',
+  Eagles = 'Eagles'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -202,6 +199,66 @@ const albums: Album[] = [
     Artist.C418,
     'https://open.spotify.com/album/7CYDRyFCKtAYJBSpfovLyX',
     'minecraft-beta.jpg'
+  ),
+  album(
+    'Because the Internet',
+    Artist.ChildishGambino,
+    'https://open.spotify.com/album/62yjWIhnATHxPqGbgC9Lqr',
+    'because-the-internet.jpg'
+  ),
+  album(
+    'C-GIRL',
+    Artist.CityGirl,
+    'https://open.spotify.com/album/5bRMP8rq8cFDqDaobUR6jp',
+    'c-girl.jpg'
+  ),
+  album(
+    'Parachutes',
+    Artist.Coldplay,
+    'https://open.spotify.com/album/6ZG5lRT77aJ3btmArcykra',
+    'parachutes.jpg'
+  ),
+  album(
+    'Discovery',
+    Artist.DaftPunk,
+    'https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc',
+    'discovery.jpg'
+  ),
+  album(
+    'Random Access Memories',
+    Artist.DaftPunk,
+    'https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa',
+    'random-access-memories.jpg'
+  ),
+  album(
+    'TRON: Legacy',
+    Artist.DaftPunk,
+    'https://open.spotify.com/album/3AMXFnwHWXCvNr5NCCpLZI',
+    'tron-legacy.jpg'
+  ),
+  album(
+    'Alive 2007',
+    Artist.DaftPunk,
+    'https://open.spotify.com/album/7u6zL7kqpgLPISZYXNTgYk',
+    'alive-2007.jpg'
+  ),
+  album(
+    'The Rise and Fall of Ziggy Stardust and the Spiders from Mars',
+    Artist.DavidBowie,
+    'https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56',
+    'the-rise-and-fall.jpg'
+  ),
+  album(
+    'Nineteen',
+    Artist.Desired,
+    'https://open.spotify.com/album/69fOwmdCZIaWPE4OLLnuQi',
+    'nineteen.jpg'
+  ),
+  album(
+    'Hotel California',
+    Artist.Eagles,
+    'https://open.spotify.com/album/2widuo17g5CEC66IbzveRu',
+    'hotel-california.jpg'
   )
 ];
 
