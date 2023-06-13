@@ -27,6 +27,7 @@ const gridSize = Math.ceil(Math.sqrt(albums.length));
 
 <style scoped lang="scss">
 #mosaic-container {
+  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;

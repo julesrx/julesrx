@@ -38,6 +38,12 @@ body {
 }
 
 header {
+  a {
+    &:hover:not(.button) {
+      opacity: 1;
+    }
+  }
+
   img {
     height: 10rem;
     width: 10rem;
@@ -66,7 +72,7 @@ header {
   width: 1.5rem;
   height: 1.5rem;
   animation: fade-in 1s linear 1;
-  z-index: -1;
+  z-index: -2;
   opacity: 0.2;
 
   @media (min-width: $size-sm) {
