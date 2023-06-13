@@ -1,18 +1,9 @@
 /*
-
-
-lady wood
-astro world
-v vald
-memories ost
-after hours
-lately i feel everything
-the unforgiving
-ep2
 record
 bae yung bae
 mirai addiction
 fruiscante albulm
+damso
 */
 
 const enum Artist {
@@ -76,7 +67,14 @@ const enum Artist {
   TaekoOnuki = 'Taeko Onuki',
   Tessina = 'tessina',
   ThomYorke = 'Thom Yorke',
-  ToveLo = 'Tove Lo'
+  ToveLo = 'Tove Lo',
+  TravisScott = 'Travis Scott',
+  Vald = 'Vald',
+  VariousArtists = 'Various Artists',
+  TheWeeknd = 'The Weeknd',
+  WILLOW = 'WILLOW',
+  WithinTemptation = 'Within Temptation',
+  Yaeji = 'Yaeji'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -629,7 +627,45 @@ const albums: Album[] = [
     Artist.ToveLo,
     'https://open.spotify.com/album/5Z5O36p7BivXzkucc0PAfw',
     'queen-of-the-clouds.jpg'
-  )
+  ),
+  album(
+    'Lady Wood',
+    Artist.ToveLo,
+    'https://open.spotify.com/album/1tuekzsMZQOuiMejKP6t2Y',
+    'lady-wood.jpg'
+  ),
+  album(
+    'ASTROWORLD',
+    Artist.TravisScott,
+    'https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I',
+    'astroworld.jpg'
+  ),
+  album('V', Artist.Vald, 'https://open.spotify.com/album/03ZLnEibkBpQxhXKaQiqfU', 'v.jpg'),
+  album(
+    'KATSUHIRO OTOMO PRESENTS『MEMORIES』ORIGINAL MOTION PICTURE SOUNDTRACK',
+    Artist.VariousArtists,
+    'https://open.spotify.com/album/7pSNL28h30l1t2l0RqMT5R',
+    'memories.jpg'
+  ),
+  album(
+    'After Hours (Deluxe)',
+    Artist.TheWeeknd,
+    'https://open.spotify.com/album/742eAldb4AJKLoPgJhGRE7',
+    'after-hours.jpg'
+  ),
+  album(
+    'lately I feel EVERYTHING',
+    Artist.WILLOW,
+    'https://open.spotify.com/album/1dg0gmrCaEbENVXpPIvi1m',
+    'lately-i-feel.jpg'
+  ),
+  album(
+    'The Unforgiving',
+    Artist.WithinTemptation,
+    'https://open.spotify.com/album/1EvpTfBqlDzPwDYzWTgTw3',
+    'the-unforgiving.jpg'
+  ),
+  album('EP2', Artist.Yaeji, 'https://open.spotify.com/album/6zB32HTy4cewV8V7TuHzKJ', 'ep2.jpg')
 ];
 
 export default function (): Album[] {
