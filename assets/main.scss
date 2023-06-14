@@ -47,7 +47,9 @@ body {
 }
 
 header {
+  z-index: 1;
   position: relative;
+  display: inline-block;
 
   a {
     &:hover:not(.button) {
@@ -111,6 +113,28 @@ header {
 
   @media (prefers-reduced-motion) {
     display: none;
+  }
+}
+
+#mosaic-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #mosaic {
+    display: grid;
+    gap: 5px;
+
+    a,
+    img {
+      display: block;
+    }
   }
 }
 

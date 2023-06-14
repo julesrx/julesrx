@@ -24,28 +24,3 @@ const template = `repeat(${Math.floor(Math.sqrt(albums.length))}, 1fr)`;
     </div>
   </div>
 </template>
-
-<style scoped lang="scss">
-#mosaic-container {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  #mosaic {
-    display: grid;
-    gap: 5px;
-
-    a,
-    img {
-      display: block;
-    }
-  }
-}
-</style>
