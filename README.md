@@ -16,4 +16,6 @@ I'm Jules, a full stack developer at [bewease](https://bewease.fr) in [Bordeaux,
 - 👨‍💻 Coding daily `.cs`, `.ts`, `.vue`, `.go`, `.yml`
 - 🎮 Halo & Destiny player
 
+If you need to reach me, you can do so on [LinkedIn](https://www.linkedin.com/in/jules-raffoux) or [GitHub](https://github.com/julesrx).
+
 [![julesrx's top langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=julesrx&count_private=true&size_weight=0.5&count_weight=0.5&layout=compact&text_color=F0F6FC&title_color=2ecc71&icon_color=2ecc71&bg_color=0d1117&border_color=30363d)](https://github.com/julesrx?tab=repositories)
