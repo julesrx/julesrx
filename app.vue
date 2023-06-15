@@ -10,7 +10,7 @@ useBouncer();
         <img src="/jules.png" :alt="config.title" />
       </NuxtLink>
 
-      <NuxtLink to="/music" class="music">🎶</NuxtLink>
+      <NuxtLink to="/music" class="music" title="What do I listen to?">🎶</NuxtLink>
     </header>
 
     <NuxtPage />
