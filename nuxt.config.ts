@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
-      htmlAttrs: { lang: 'fr' },
+      htmlAttrs: { lang: 'en' },
       title,
       meta: [
         { name: 'title', content: title },
@@ -26,15 +26,15 @@ export default defineNuxtConfig({
         { name: 'twitter:site', content: '@julesrafx' },
         { name: 'twitter:title', content: title },
         { name: 'twitter:description', content: description },
-        { name: 'twitter:image', content: url + 'img/summary.png' },
+        { name: 'twitter:image', content: url + 'summary.png' },
 
         // Open Graph / Facebook
         { name: 'og:title', content: title },
         { name: 'og:type', content: 'website' },
-        { name: 'og:image', content: url + 'img/summary.png' },
+        { name: 'og:image', content: url + 'summary.png' },
         { name: 'og:url', content: url },
         { name: 'og:description', content: description },
-        { name: 'og:locale', content: 'fr_FR' }
+        { name: 'og:locale', content: 'en_GB' }
       ],
       link: [
         { rel: 'canonical', href: url },
