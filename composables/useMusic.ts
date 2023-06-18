@@ -71,7 +71,8 @@ const enum Artist {
   YungBae = 'Yung Bae',
   Mirai = 'ぷにぷに電機',
   JohnFrusciante = 'John Frusciante',
-  Damso = 'Damso'
+  Damso = 'Damso',
+  Evanescence = 'Evanescence'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -687,6 +688,12 @@ const albums: Album[] = [
     Artist.Damso,
     'https://open.spotify.com/album/2Cv2mrKMRyYuXJTlQmY4hj',
     'qalf-infinity.jpg'
+  ),
+  album(
+    'Fallen',
+    Artist.Evanescence,
+    'https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm',
+    'fallen.jpg'
   )
 ];
 
