@@ -72,7 +72,8 @@ const enum Artist {
   Mirai = 'ぷにぷに電機',
   JohnFrusciante = 'John Frusciante',
   Damso = 'Damso',
-  Evanescence = 'Evanescence'
+  Evanescence = 'Evanescence',
+  TheBeatles = 'The Beatles',
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -694,6 +695,24 @@ const albums: Album[] = [
     Artist.Evanescence,
     'https://open.spotify.com/album/02w1xMzzdF2OJxTeh1basm',
     'fallen.jpg'
+  ),
+  album(
+    'Slipknot',
+    Artist.Slipknot,
+    'https://open.spotify.com/album/2dL9Q5AtIv4Rw1L6lKcIUc?si=OqKe2OxoRwSvhwBzissTLA',
+    'slipknot.jpg'
+  ),
+  album(
+    'Let It Be',
+    Artist.TheBeatles,
+    'https://open.spotify.com/album/1BdxbYp1FaNejpDgtDo25V?si=KLhUcTHmT8SPNXvfDkZ7gQ',
+    'let-it-be.jpg'
+  ),
+  album(
+    'Abbey Road',
+    Artist.TheBeatles,
+    'https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN?si=O62TouI6SMSqpe1_Lnvz3A',
+    'abbey-road.jpg'
   )
 ];
 
