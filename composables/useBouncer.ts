@@ -8,7 +8,7 @@ export default function () {
       .fill(emojis)
       .flat()
       .map(e => {
-        const i = document.createElement('i');
+        const i = document.createElement('span');
         i.className = 'bounce';
         i.innerHTML = e;
         return i;
