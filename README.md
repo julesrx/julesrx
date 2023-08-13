@@ -1,6 +1,6 @@
 ### Hello there :v:
 
-I'm Jules, a full stack developer at [bewease](https://bewease.fr) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Typescript, Go and other recent stuff.
+I'm Jules, a software engineer at [bewease](https://bewease.fr) in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Typescript, Go and other recent stuff.
 
 #### Now
 
