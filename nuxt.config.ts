@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   css: ['@fontsource/inter', 'chota/dist/chota.min.css', '@/assets/main.scss'],
   typescript: { typeCheck: true, strict: true },
   appConfig: { title },
-  image: { dir: 'assets/albums' },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {

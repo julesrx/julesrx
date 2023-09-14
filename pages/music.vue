@@ -10,16 +10,14 @@ const template = `repeat(${Math.floor(Math.sqrt(albums.length))}, 1fr)`;
       :style="{
         'grid-template-columns': template,
         'grid-template-rows': template
-      }"
-    >
+      }">
       <NuxtLink
         :to="a.link"
         target="_blank"
         v-for="(a, i) in albums"
         :key="i"
-        :title="`${a.title} - ${a.artist}`"
-      >
-        <NuxtImg :src="a.poster" format="webp" height="50" width="50" :alt="a.title" />
+        :title="`${a.title} - ${a.artist}`">
+        <NuxtImg :src="`/albums/${a.poster}`" format="webp" height="50" width="50" :alt="a.title" />
       </NuxtLink>
     </div>
   </div>

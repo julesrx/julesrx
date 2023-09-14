@@ -7,7 +7,7 @@ useBouncer();
   <main>
     <header>
       <NuxtLink to="/">
-        <img src="/jules.png" :alt="config.title" />
+        <NuxtImg src="/jules.png" format="webp" height="200" width="200" :alt="config.title" />
       </NuxtLink>
 
       <NuxtLink to="/music" class="music" title="What do I listen to?">🎶</NuxtLink>
