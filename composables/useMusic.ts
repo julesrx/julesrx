@@ -526,10 +526,10 @@ const albums: Album[] = [
     'the-getaway.jpg'
   ),
   album(
-    'By the Way',
+    'Californication',
     Artist.RHCP,
-    'https://open.spotify.com/album/1jWKVgnHX8nwR551hQNx5K',
-    'by-the-way.jpg'
+    'https://open.spotify.com/album/2Y9IRtehByVkegoD7TcLfi',
+    'californication.jpg'
   ),
   album(
     'Stadium Arcadium',
