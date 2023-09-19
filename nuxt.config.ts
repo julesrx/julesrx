@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       title,
       meta: [
         { name: 'title', content: title },
-        { name: 'description', content: 'config.description' },
+        { name: 'description', content: description },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#2ecc71' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
