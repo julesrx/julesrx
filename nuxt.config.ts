@@ -1,6 +1,6 @@
 const title = 'Jules Raffoux';
 const description =
-  "I'm Jules, a full stack developer at bewease in Bordeaux, France 🇫🇷, working with Vue, Typescript, .NET and other recent stuff.";
+  'Software engineer in Bordeaux, France 🇫🇷, working with Vue, Typescript, .NET and other recent stuff.';
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
