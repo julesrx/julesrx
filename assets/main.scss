@@ -1,125 +1,125 @@
 :root {
-    --bg-color: #0d1117;
-    --font-color: #c9d1d9;
-    --color-primary: #2ecc71;
-    --bg-secondary-color: hsla(215, 8%, 47%, 0.4);
-    --font-family-sans: 'Rubik Variable', sans-serif;
-    --font-size: 16px;
+  --bg-color: #0d1117;
+  --font-color: #c9d1d9;
+  --color-primary: #2ecc71;
+  --bg-secondary-color: hsla(215, 8%, 47%, 0.4);
+  --font-family-sans: 'Rubik Variable', sans-serif;
+  --font-size: 16px;
 }
 
 $size-sm: 768px;
 $size-lg: 1024px;
 
 html {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 body {
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 
-    @media (min-width: $size-sm) {
-        padding-top: 2.25rem;
-    }
-    @media (min-width: $size-sm) {
-        padding-left: 2.25rem;
-        padding-right: 2.25rem;
-    }
+  @media (min-width: $size-sm) {
+    padding-top: 2.25rem;
+  }
+  @media (min-width: $size-sm) {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
 
-    @media (min-width: $size-lg) {
-        padding-top: 3.5rem;
-    }
-    @media (min-width: $size-lg) {
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
-    }
+  @media (min-width: $size-lg) {
+    padding-top: 3.5rem;
+  }
+  @media (min-width: $size-lg) {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
 }
 
 header {
-    z-index: 1;
-    position: relative;
-    display: inline-block;
+  z-index: 1;
+  position: relative;
+  display: inline-block;
 
-    a {
-        &:hover:not(.button) {
-            opacity: 1;
-        }
+  a {
+    &:hover:not(.button) {
+      opacity: 1;
     }
+  }
 
-    img {
-        height: 10rem;
-        width: 10rem;
-        border-radius: 50%;
+  img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+  }
+
+  .music {
+    position: absolute;
+    right: 0;
+
+    @media (max-width: $size-sm) {
+      display: none;
     }
-
-    .music {
-        position: absolute;
-        right: 0;
-
-        @media (max-width: $size-sm) {
-            display: none;
-        }
-    }
+  }
 }
 
 .prose {
-    max-width: 65ch;
+  max-width: 65ch;
 
-    a[href^='#'] {
-        color: inherit;
-    }
+  a[href^='#'] {
+    color: inherit;
+  }
 
-    code {
-        color: var(--font-color);
-        padding: 0;
-    }
+  code {
+    color: var(--font-color);
+    padding: 0;
+  }
 
-    img {
-        opacity: 0.9;
-    }
+  img {
+    opacity: 0.9;
+  }
 }
 
 .bounce {
-    width: 1.5rem;
-    height: 1.5rem;
-    animation: fade-in 1s linear 1;
-    z-index: -2;
-    opacity: 0.2;
+  width: 1.5rem;
+  height: 1.5rem;
+  animation: fade-in 1s linear 1;
+  z-index: -2;
+  opacity: 0.2;
 
-    @media (min-width: $size-sm) {
-        opacity: 0.4;
-    }
+  @media (min-width: $size-sm) {
+    opacity: 0.4;
+  }
 
-    @media (min-width: $size-lg) {
-        opacity: 1;
-    }
+  @media (min-width: $size-lg) {
+    opacity: 1;
+  }
 
-    @media (max-width: $size-lg) {
-        &:nth-child(even) {
-            display: none;
-        }
+  @media (max-width: $size-lg) {
+    &:nth-child(even) {
+      display: none;
     }
+  }
 
-    @media (prefers-reduced-motion) {
-        display: none;
-    }
+  @media (prefers-reduced-motion) {
+    display: none;
+  }
 }
 
 @keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .page-enter-active,
 .page-leave-active {
-    transition: all 0.1s;
+  transition: all 0.1s;
 }
 .page-enter-from,
 .page-leave-to {
-    opacity: 0;
+  opacity: 0;
 }

@@ -73,7 +73,7 @@ const enum Artist {
   JohnFrusciante = 'John Frusciante',
   Damso = 'Damso',
   Evanescence = 'Evanescence',
-  TheBeatles = 'The Beatles',
+  TheBeatles = 'The Beatles'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({

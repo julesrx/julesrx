@@ -4,18 +4,18 @@ I'm Jules, a software engineer at [bewease](https://bewease.fr) in [Bordeaux, Fr
 
 #### Now
 
--   🖌 Working on my design skills
--   🚀 Learning [WASM](https://webassembly.org)
--   🕵 De-Google-ifying my life
+- 🖌 Working on my design skills
+- 🚀 Learning [WASM](https://webassembly.org)
+- 🕵 De-Google-ifying my life
 
 #### Bio
 
--   🐧 Daily driving [Linux](https://pop.system76.com)
--   😍 Loves [Vue](https://vuejs.org), [Vite](https://vitejs.dev) and [UnoCSS](https://github.com/unocss/unocss)
--   🌱 Contributes to Open Source
--   👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
--   💿 Music addict
--   🎮 Handball player, Halo & Destiny fan
+- 🐧 Daily driving [Linux](https://pop.system76.com)
+- 😍 Loves [Vue](https://vuejs.org), [Vite](https://vitejs.dev) and [UnoCSS](https://github.com/unocss/unocss)
+- 🌱 Contributes to Open Source
+- 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
+- 💿 Music addict
+- 🎮 Handball player, Halo & Destiny fan
 
 If you need to reach me, you can do so on [LinkedIn](https://www.linkedin.com/in/jules-raffoux) or [GitHub](https://github.com/julesrx).
 
