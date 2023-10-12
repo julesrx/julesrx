@@ -3,18 +3,8 @@
     --font-color: #c9d1d9;
     --color-primary: #2ecc71;
     --bg-secondary-color: hsla(215, 8%, 47%, 0.4);
-    --font-family-sans: 'Rubik Variable', 'Segoe UI', 'Helvetica Neue', sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-family-sans: 'Rubik Variable', sans-serif;
     --font-size: 16px;
-}
-
-.page-enter-active,
-.page-leave-active {
-    transition: all 0.1s;
-}
-.page-enter-from,
-.page-leave-to {
-    opacity: 0;
 }
 
 $size-sm: 768px;
@@ -116,28 +106,6 @@ header {
     }
 }
 
-#mosaic-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    #mosaic {
-        display: grid;
-        gap: 5px;
-
-        a,
-        img {
-            display: block;
-        }
-    }
-}
-
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -145,4 +113,13 @@ header {
     to {
         opacity: 1;
     }
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: all 0.1s;
+}
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
 }
