@@ -25,7 +25,7 @@ const template = `repeat(${Math.floor(Math.sqrt(albums.length))}, 1fr)`;
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 #mosaic-container {
   position: absolute;
   top: 0;
