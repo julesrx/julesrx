@@ -11,7 +11,7 @@ I'm Jules, a software engineer at [bewease](https://bewease.fr) in [Bordeaux, Fr
 #### Bio
 
 - 🐧 Daily driving [Linux](https://pop.system76.com)
-- 😍 Loves [Vue](https://vuejs.org), [Vite](https://vitejs.dev) and [UnoCSS](https://github.com/unocss/unocss)
+- 😍 Loves [Vue](https://vuejs.org) and [Vite](https://vitejs.dev)
 - 🌱 Contributes to Open Source
 - 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
 - 💿 Music addict
