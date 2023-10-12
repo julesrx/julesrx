@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.0.16",
     "@fontsource-variable/rubik": "^5.0.17",
     "@nuxt/image": "1.0.0-rc.2",
     "bouncing-element": "^1.0.7",

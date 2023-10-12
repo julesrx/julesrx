@@ -5,7 +5,12 @@ const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/image'],
-  css: ['@fontsource-variable/rubik', 'chota/dist/chota.min.css', '@/assets/main.scss'],
+  css: [
+    '@fontsource-variable/rubik',
+    '@fontsource-variable/jetbrains-mono',
+    'chota/dist/chota.min.css',
+    '@/assets/main.scss'
+  ],
   typescript: { typeCheck: true, strict: true },
   appConfig: { title },
   app: {

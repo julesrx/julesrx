@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/jetbrains-mono':
+    specifier: ^5.0.16
+    version: 5.0.16
   '@fontsource-variable/rubik':
     specifier: ^5.0.17
     version: 5.0.17
@@ -725,6 +728,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/jetbrains-mono@5.0.16:
+    resolution: {integrity: sha512-KTQ+QFW/5OALFDg4dgR5CrzsLncDK1FfNEDCkatWRwrsjS4BLkt3AzTcNBcND1MN3Yae63zSgVoy7ihYdCVi+A==}
+    dev: false
 
   /@fontsource-variable/rubik@5.0.17:
     resolution: {integrity: sha512-JjzzGNS9WQWK5wIqrvsS5+OIsxUbzhZDt6LugiSzC73VmagDx+x8RipthOzzZ8NFCIIhOH6uJsJxWr/jlqP2yQ==}
