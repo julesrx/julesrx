@@ -1,6 +1,6 @@
 ### Hello there ✌️
 
-I'm Jules, a software engineer in [Bordeaux, France 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Typescript, Go and other recent stuff.
+I'm Jules, a software engineer based in [Bordeaux 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Typescript, Go and other recent stuff.
 
 #### Now
 
