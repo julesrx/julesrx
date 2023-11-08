@@ -1,6 +1,6 @@
 ### Hello there ✌️
 
-I'm Jules, a software engineer based in [Bordeaux 🇫🇷](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Typescript, Go and other recent stuff.
+I'm Jules, a software engineer based in [Bordeaux](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Typescript, Go and other recent stuff.
 
 #### Now
 
@@ -10,7 +10,7 @@ I'm Jules, a software engineer based in [Bordeaux 🇫🇷](https://www.openstre
 
 #### Bio
 
-- 🐧 Daily driving [Linux](https://pop.system76.com)
+- 🐧 Daily driving [Linux](https://www.debian.org/)
 - 😍 Loves [Vue](https://vuejs.org) and [Vite](https://vitejs.dev)
 - 🌱 Contributes to Open Source
 - 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
