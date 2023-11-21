@@ -60,7 +60,6 @@ const enum Artist {
   Tessina = 'tessina',
   ThomYorke = 'Thom Yorke',
   ToveLo = 'Tove Lo',
-  TravisScott = 'Travis Scott',
   Vald = 'Vald',
   VariousArtists = 'Various Artists',
   TheWeeknd = 'The Weeknd',
@@ -448,6 +447,12 @@ const albums: Album[] = [
     'to-hell-with-it.jpg'
   ),
   album(
+    'Heaven knows',
+    Artist.PinkPantheress,
+    'https://open.spotify.com/album/2pOEFqvfxp5uUQ8vQEmVA0',
+    'heaven-knows.jpg'
+  ),
+  album(
     'To Be One With You',
     Artist.Pluralone,
     'https://open.spotify.com/album/0PIPosV94hSadH43s9cpGx',
@@ -632,12 +637,6 @@ const albums: Album[] = [
     Artist.ToveLo,
     'https://open.spotify.com/album/1tuekzsMZQOuiMejKP6t2Y',
     'lady-wood.jpg'
-  ),
-  album(
-    'ASTROWORLD',
-    Artist.TravisScott,
-    'https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I',
-    'astroworld.jpg'
   ),
   album('V', Artist.Vald, 'https://open.spotify.com/album/03ZLnEibkBpQxhXKaQiqfU', 'v.jpg'),
   album(
