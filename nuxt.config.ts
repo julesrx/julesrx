@@ -1,10 +1,11 @@
 const title = 'Jules Raffoux';
 const description =
-  'Software engineer in Bordeaux, France 🇫🇷, working with Vue, Typescript, .NET and other recent stuff.';
+  'Software engineer based in Bordeaux, working with .NET, Vue, Typescript, Go and other recent stuff.';
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/image'],
+  image: { domains: ['avatars.githubusercontent.com'] },
   css: [
     '@fontsource-variable/rubik/index.css',
     '@fontsource-variable/jetbrains-mono/index.css',
