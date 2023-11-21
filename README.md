@@ -4,7 +4,7 @@ I'm Jules, a software engineer based in [Bordeaux](https://www.openstreetmap.org
 
 #### Now
 
-- 🖌 Working on my design skills
+- 🖌️ Working on my design skills
 - 🚀 Learning [WASM](https://webassembly.org)
 - 🕵 De-Google-ifying my life
 
