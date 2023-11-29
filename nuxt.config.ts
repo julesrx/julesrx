@@ -28,7 +28,6 @@ export default defineNuxtConfig({
 
         // Twitter
         { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:site', content: '@julesrafx' },
         { name: 'twitter:title', content: title },
         { name: 'twitter:description', content: description },
         { name: 'twitter:image', content: url + 'summary.png' },
