@@ -4,7 +4,7 @@ const description =
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
-    modules: ['@nuxt/content', '@nuxt/image', '@nuxtjs/eslint-module', '@vueuse/nuxt', 'nuxt-icon'],
+    modules: ['@nuxt/content', '@nuxt/image', '@nuxtjs/eslint-module', '@vueuse/nuxt'],
     image: { domains: ['avatars.githubusercontent.com'] },
     css: [
         '@fontsource-variable/rubik/index.css',
