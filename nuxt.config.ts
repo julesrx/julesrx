@@ -4,14 +4,19 @@ const description =
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/image'],
+  modules: ['@nuxt/content', '@nuxt/image', '@vueuse/nuxt'],
   image: { domains: ['avatars.githubusercontent.com'] },
   css: [
     '@fontsource-variable/rubik/index.css',
     '@fontsource-variable/jetbrains-mono/index.css',
-    'chota/dist/chota.min.css',
-    '@/assets/main.scss'
+    '~/assets/main.css'
   ],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  },
   typescript: { typeCheck: true, strict: true },
   appConfig: { title },
   app: {
