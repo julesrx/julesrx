@@ -28,7 +28,7 @@ const { data } = await useFetch<{ login: string; avatar_url: string }>(
                 class="absolute top-0 right-0 hidden sm:block"
                 title="What do I listen to?"
             >
-                🎶
+                <Icon name="🎶" />
             </NuxtLink>
         </header>
 
