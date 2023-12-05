@@ -11,7 +11,7 @@ I'm Jules, a software engineer based in [Bordeaux](https://www.openstreetmap.org
 #### Bio
 
 - 🐧 Daily driving [Linux](https://www.debian.org/)
-- 😍 Loves [Vue](https://vuejs.org) and [Vite](https://vitejs.dev)
+- 😍 Loves [Vue](https://vuejs.org), [Nuxt](https://nuxt.com/) and [Vite](https://vitejs.dev)
 - 🌱 Contributes to Open Source
 - 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
 - 💿 Music addict
