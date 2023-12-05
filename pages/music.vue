@@ -4,9 +4,9 @@ const template = `repeat(${Math.floor(Math.sqrt(albums.length))}, 1fr)`;
 </script>
 
 <template>
-  <div id="mosaic-container">
+  <div class="absolute top-0 left-0 w-screen h-screen flex justify-center items-center">
     <div
-      id="mosaic"
+      class="grid gap-1"
       :style="{
         'grid-template-columns': template,
         'grid-template-rows': template
@@ -18,33 +18,17 @@ const template = `repeat(${Math.floor(Math.sqrt(albums.length))}, 1fr)`;
         v-for="(a, i) in albums"
         :key="i"
         :title="`${a.title} - ${a.artist}`"
+        class="block"
       >
-        <NuxtImg :src="`/albums/${a.poster}`" format="webp" height="50" width="50" :alt="a.title" />
+        <NuxtImg
+          :src="`/albums/${a.poster}`"
+          format="webp"
+          height="50"
+          width="50"
+          class="block"
+          :alt="a.title"
+        />
       </NuxtLink>
     </div>
   </div>
 </template>
-
-<style scoped lang="scss">
-#mosaic-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  #mosaic {
-    display: grid;
-    gap: 5px;
-
-    a,
-    img {
-      display: block;
-    }
-  }
-}
-</style>
