@@ -11,7 +11,7 @@
         "@fontsource-variable/jetbrains-mono": "^5.0.18",
         "@fontsource-variable/rubik": "^5.0.19",
         "@nuxt/image": "1.1.0",
-        "bouncing-element": "^2.0.0"
+        "bouncing-element": "^2.0.1"
     },
     "devDependencies": {
         "@nuxt/content": "^2.9.0",
