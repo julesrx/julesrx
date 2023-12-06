@@ -1,3 +1,10 @@
+interface Album {
+    title: string;
+    artist: string;
+    link: string;
+    poster: string;
+}
+
 const enum Artist {
     RHCP = 'Red Hot Chili Peppers',
     Morissette = 'Alanis Morissette',
