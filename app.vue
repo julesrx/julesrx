@@ -7,7 +7,7 @@ const { data } = await useFetch<{ login: string; avatar_url: string }>(
 </script>
 
 <template>
-    <main>
+    <main class="animate-fade-in">
         <Html class="dark" />
         <Body class="bg-background font-white px-2 pt-2 sm:px-9 sm:pt-9 lg:px-14 lg:pt-14" />
 

@@ -26,6 +26,14 @@ const config: Config = {
                 sans: ['"Rubik Variable"', ...defaultTheme.fontFamily.sans],
                 mono: ['"JetBrains Mono Variable"', ...defaultTheme.fontFamily.mono]
             },
+            fontWeight: { inherit: 'inherit' },
+            keyframes: {
+                'fade-in': {
+                    from: { opacity: '0%' },
+                    to: { opacity: '100%' }
+                }
+            },
+            animation: { 'fade-in': 'fade-in 1s linear 1' },
             typography: ({ theme }: { theme: (val: string) => string }) => ({
                 gray: {
                     css: {

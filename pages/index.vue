@@ -7,6 +7,7 @@ const classes = [
     'prose-h3:text-2xl',
     'prose-a:no-underline',
     'prose-a:text-primary',
+    'prose-a:font-inherit',
     'prose-img:my-0',
     'prose-img:opacity-90',
     'prose-li:m-0',
