@@ -15,8 +15,8 @@ dependencies:
     specifier: 1.1.0
     version: 1.1.0
   bouncing-element:
-    specifier: ^1.0.7
-    version: 1.0.7
+    specifier: ^2.0.0
+    version: 2.0.0
 
 devDependencies:
   '@nuxt/content':
@@ -3032,8 +3032,8 @@ packages:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     requiresBuild: true
 
-  /bouncing-element@1.0.7:
-    resolution: {integrity: sha512-JgFpRJAtvTQLO577K/j9V5HbTDhCQNi7zzh7zyfiW4t0c85To5AmwYZDMpO7+14Bz31w9G6MbTlh5SWTN72dVg==}
+  /bouncing-element@2.0.0:
+    resolution: {integrity: sha512-lP0ogIz5/Fo0OcSd4QevNBoGdUoEMj2YqtfXJr5TNvj+Xzt5JTv1H1C3OIsJYogKgIPTpGSsgIivteN09/MJBw==}
     dev: false
 
   /bplist-parser@0.2.0:
