@@ -1,5 +1,6 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
+import { theme } from '@julesrx/utils';
 
 import typography from '@tailwindcss/typography';
 
@@ -14,13 +15,14 @@ const config: Config = {
         './error.vue',
         './nuxt.config.ts'
     ],
+    plugins: [typography],
     theme: {
         extend: {
             colors: {
-                primary: '#2ecc71',
+                primary: theme.primary,
                 secondary: 'hsla(215,8%,47%,.4)',
-                white: '#c9d1d9',
-                background: '#0d1117'
+                white: theme.body,
+                background: theme.background
             },
             fontFamily: {
                 sans: ['"Rubik Variable"', ...defaultTheme.fontFamily.sans],
@@ -42,8 +44,7 @@ const config: Config = {
                 }
             })
         }
-    },
-    plugins: [typography]
+    }
 };
 
 export default config;
