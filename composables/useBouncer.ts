@@ -10,26 +10,32 @@ export default () => {
             if (preferredMotion === 'reduce') return;
 
             onMounted(() => {
-                Array(3)
-                    .fill(emojis)
-                    .flat()
-                    .map(e => {
-                        const i = document.createElement('span');
-                        i.className = 'bounce';
-                        i.innerHTML = e;
-                        return i;
-                    })
-                    .forEach(e => document.body.appendChild(e));
+                const els: HTMLElement[] = [];
 
-                Array(3)
-                    .fill('/favicon.ico')
-                    .map(e => {
-                        const i = document.createElement('img');
-                        i.className = 'bounce';
-                        i.src = e;
-                        return i;
-                    })
-                    .forEach(e => document.body.appendChild(e));
+                els.push(
+                    ...Array(3)
+                        .fill(emojis)
+                        .flat()
+                        .map(e => {
+                            const i = document.createElement('span');
+                            i.className = 'bounce';
+                            i.innerHTML = e;
+                            return i;
+                        })
+                );
+
+                els.push(
+                    ...Array(3)
+                        .fill('/favicon.ico')
+                        .map(e => {
+                            const i = document.createElement('img');
+                            i.className = 'bounce';
+                            i.src = e;
+                            return i;
+                        })
+                );
+
+                document.body.append(...els);
 
                 // eslint-disable-next-line no-new
                 new Bouncer();
