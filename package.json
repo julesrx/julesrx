@@ -10,7 +10,7 @@
     "dependencies": {
         "@fontsource-variable/jetbrains-mono": "^5.0.19",
         "@fontsource-variable/rubik": "^5.0.20",
-        "@julesrx/utils": "^0.0.10",
+        "@julesrx/utils": "^0.0.13",
         "@nuxt/image": "1.1.0",
         "bouncing-element": "^2.0.1"
     },
