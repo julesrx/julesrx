@@ -1,4 +1,4 @@
-const title = 'Jules Raffoux';
+const title = 'Jules Raffoux · Software engineer';
 const description =
     'Software engineer based in Bordeaux, working with .NET, Vue, Typescript, Go and other recent stuff.';
 const url = 'https://julesrx.fr/';
