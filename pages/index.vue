@@ -15,6 +15,7 @@ const classes = [
     'prose-code:before:content-none',
     'prose-code:after:content-none',
     'prose-code:rounded',
+    'prose-code:font-light',
     'prose-ul:mb-4',
     'prose-p:my-4',
     'prose-headings:font-medium',

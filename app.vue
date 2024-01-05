@@ -48,7 +48,7 @@ const { data } = await useFetch<{ login: string; avatar_url: string }>(
                     format="webp"
                     height="200"
                     width="200"
-                    :alt="data?.login"
+                    :alt="data!.login"
                     class="rounded-full h-40 w-40"
                 />
             </NuxtLink>
