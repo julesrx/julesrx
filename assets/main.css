@@ -14,6 +14,10 @@
     @apply text-inherit hover:opacity-100;
 }
 
+.prose p:last-of-type > a {
+    @apply inline-block;
+}
+
 .bounce {
     @apply w-6 h-6 -z-10 opacity-20 sm:opacity-40 lg:opacity-70 even:hidden lg:even:block motion-reduce:hidden animate-fade-in;
 }
