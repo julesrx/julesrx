@@ -1,6 +1,6 @@
-const title = 'Jules Raffoux · Software engineer';
+const title = 'Jules Raffoux · Software developer';
 const description =
-    'Software engineer based in Bordeaux, working with .NET, Vue, Typescript, Go and other recent stuff.';
+    'Software developer based in Bordeaux, working with .NET, Vue, Typescript, Go and other recent stuff.';
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
