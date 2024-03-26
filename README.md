@@ -10,7 +10,7 @@ I'm Jules, a software developer based in [Bordeaux](https://www.openstreetmap.or
 
 #### Bio
 
-- 🐧 Daily driving [Linux](https://www.debian.org/)
+- 🐧 Daily driving [Linux](https://ubuntu.com/desktop)
 - 😍 Loves [Vue](https://vuejs.org), [Nuxt](https://nuxt.com/) and [Vite](https://vitejs.dev)
 - 🌱 Contributes to Open Source
 - 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
