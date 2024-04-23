@@ -18,6 +18,7 @@ onMounted(() => {
             .map(e => {
                 const i = document.createElement('img');
                 i.className = 'bounce';
+                i.alt = 'Favicon';
                 i.src = e;
                 return i;
             })
