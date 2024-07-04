@@ -4,7 +4,7 @@ const description =
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
-    modules: ['@nuxt/content', '@nuxt/image', '@nuxtjs/eslint-module', '@vueuse/nuxt'],
+    modules: ['@nuxt/content', '@nuxt/image', '@vueuse/nuxt'],
     image: { domains: ['avatars.githubusercontent.com'] },
     css: [
         '@fontsource-variable/rubik/index.css',
@@ -17,8 +17,6 @@ export default defineNuxtConfig({
             autoprefixer: {}
         }
     },
-    eslint: { fix: true, failOnError: true },
-    typescript: { typeCheck: true, strict: true },
     app: {
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
