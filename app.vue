@@ -43,13 +43,13 @@ const { data } = await useFetch<{ login: string; avatar_url: string }>(
         <Body class="bg-background font-white px-2 pt-2 sm:px-9 sm:pt-9 lg:px-14 lg:pt-14" />
 
         <header class="z-10 relative inline-block">
-            <NuxtLink to="/">
+            <NuxtLink to="/" v-if="data">
                 <NuxtImg
-                    :src="data!.avatar_url.replace(/(\?|%3Fu).*$/, '')"
+                    :src="data.avatar_url.replace(/(\?|%3Fu).*$/, '')"
                     format="webp"
                     height="200"
                     width="200"
-                    :alt="data!.login"
+                    :alt="data.login"
                     class="rounded-full h-40 w-40"
                 />
             </NuxtLink>
