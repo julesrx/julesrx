@@ -48,7 +48,6 @@ const enum Artist {
     NickDrake = 'Nick Drake',
     NIKI = 'NIKI',
     NoirDesir = 'Noir Désir',
-    Orelsan = 'Orelsan',
     PinkFloyd = 'Pink Floyd',
     PinkPantheress = 'PinkPantheress',
     Pluralone = 'Pluralone',
@@ -79,7 +78,8 @@ const enum Artist {
     JohnFrusciante = 'John Frusciante',
     Damso = 'Damso',
     Evanescence = 'Evanescence',
-    TheBeatles = 'The Beatles'
+    TheBeatles = 'The Beatles',
+    FrouFrou = 'Frou Frou'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -422,18 +422,6 @@ const albums: Album[] = [
         'des-visages-des-figures.jpg'
     ),
     album(
-        "Perdu D'Avance",
-        Artist.Orelsan,
-        'https://open.spotify.com/album/17UiqpQyl8T8vVxz2Towjy',
-        'perdu-davance.jpg'
-    ),
-    album(
-        'La fête est finie - EPILOGUE',
-        Artist.Orelsan,
-        'https://open.spotify.com/album/5nyLaTsztHW8mI1KAWeGkS',
-        'la-fete-est-finie.jpg'
-    ),
-    album(
         'Animals',
         Artist.PinkFloyd,
         'https://open.spotify.com/album/21jUB9RqplD6OqtsTjKBnO',
@@ -706,6 +694,12 @@ const albums: Album[] = [
         'shadows-collide-with-people.jpg'
     ),
     album(
+        'The Empyrean',
+        Artist.JohnFrusciante,
+        'https://open.spotify.com/album/5ZLnZ8o2xA2cmSPYtqExl1',
+        'the-empyrean.jpg'
+    ),
+    album(
         'QALF infinity',
         Artist.Damso,
         'https://open.spotify.com/album/2Cv2mrKMRyYuXJTlQmY4hj',
@@ -720,20 +714,26 @@ const albums: Album[] = [
     album(
         'Slipknot',
         Artist.Slipknot,
-        'https://open.spotify.com/album/2dL9Q5AtIv4Rw1L6lKcIUc?si=OqKe2OxoRwSvhwBzissTLA',
+        'https://open.spotify.com/album/2dL9Q5AtIv4Rw1L6lKcIUc',
         'slipknot.jpg'
     ),
     album(
         'Let It Be',
         Artist.TheBeatles,
-        'https://open.spotify.com/album/1BdxbYp1FaNejpDgtDo25V?si=KLhUcTHmT8SPNXvfDkZ7gQ',
+        'https://open.spotify.com/album/1BdxbYp1FaNejpDgtDo25V',
         'let-it-be.jpg'
     ),
     album(
         'Abbey Road',
         Artist.TheBeatles,
-        'https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN?si=O62TouI6SMSqpe1_Lnvz3A',
+        'https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN',
         'abbey-road.jpg'
+    ),
+    album(
+        'Details',
+        Artist.FrouFrou,
+        'https://open.spotify.com/album/7rwh9WVOm4JGKAbh1xlvPc',
+        'details.jpg'
     )
 ];
 
