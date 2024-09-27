@@ -35,7 +35,6 @@ const enum Artist {
     M83 = 'M83',
     Macross8299 = 'Macross 82-99',
     Halo2Vol1 = "Martin O'Donnell, Michael Salvatori, Incubus, Nataraj, Nile Rodgers, Hoobastank, Breaking Benjamin",
-    Halo2Vol2 = "Martin O'Donnell, Michael Salvatori",
     MasayoshiTakanaka = 'Masayoshi Takanaka',
     MassiveAttack = 'Massive Attack',
     MetroBoomin = 'Metro Boomin',
@@ -66,7 +65,6 @@ const enum Artist {
     Tessina = 'tessina',
     ThomYorke = 'Thom Yorke',
     ToveLo = 'Tove Lo',
-    Vald = 'Vald',
     VariousArtists = 'Various Artists',
     TheWeeknd = 'The Weeknd',
     WILLOW = 'WILLOW',
@@ -79,7 +77,8 @@ const enum Artist {
     Damso = 'Damso',
     Evanescence = 'Evanescence',
     TheBeatles = 'The Beatles',
-    FrouFrou = 'Frou Frou'
+    FrouFrou = 'Frou Frou',
+    PorcupineTree = 'Porcupine Tree'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -133,10 +132,10 @@ const albums: Album[] = [
         'you-come-and-go.jpeg'
     ),
     album(
-        'Happier Than Ever',
+        'HIT ME HARD AND SOFT',
         Artist.BillieEilish,
-        'https://open.spotify.com/album/0JGOiO34nwfUdDrD612dOp',
-        'happier-than-ever.jpg'
+        'https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n',
+        'hit-me-hard-and-soft.jpg'
     ),
     album(
         'Debut',
@@ -283,12 +282,6 @@ const albums: Album[] = [
         'nectar.jpg'
     ),
     album(
-        'In Tongues',
-        Artist.Joji,
-        'https://open.spotify.com/album/6ZksrxRWlJ7ExylPyJwfLJ',
-        'in-tongues.jpg'
-    ),
-    album(
         'Hounds Of Love',
         Artist.KateBush,
         'https://open.spotify.com/album/5G5UwqPsxDKpxJLX4xsyuh',
@@ -319,22 +312,10 @@ const albums: Album[] = [
         'halo-2-vol-1.jpg'
     ),
     album(
-        'Halo 2, Vol. 2',
-        Artist.Halo2Vol2,
-        'https://open.spotify.com/album/3rkOmkp3M2pc6jNALIKMvg',
-        'halo-2-vol-2.jpg'
-    ),
-    album(
         'All Of Me',
         Artist.MasayoshiTakanaka,
         'https://open.spotify.com/playlist/4P8CfUPlsEeP4SvmQ0vHtb',
         'all-of-me.jpg'
-    ),
-    album(
-        'SEYCHELLES',
-        Artist.MasayoshiTakanaka,
-        'https://open.spotify.com/album/7BQPfd39YTObQGamGhDF7g',
-        'seychelles.jpg'
     ),
     album(
         'Collected',
@@ -415,6 +396,7 @@ const albums: Album[] = [
         'https://open.spotify.com/album/5WR7ksPLp3kqFbDLTYpGfx',
         'nicole.jpg'
     ),
+    album('Buzz', Artist.NIKI, 'https://open.spotify.com/album/3g73KFee4dbxDq5vTmX92S', 'buzz.jpg'),
     album(
         'Des visages des figures',
         Artist.NoirDesir,
@@ -438,12 +420,6 @@ const albums: Album[] = [
         Artist.PinkFloyd,
         'https://open.spotify.com/album/6uvBKDGlJAYLH5Vy6RQVsc',
         'whish-you-were-here.jpg'
-    ),
-    album(
-        'The Wall',
-        Artist.PinkFloyd,
-        'https://open.spotify.com/album/6WaIQHxEHtZL0RZ62AuY0g',
-        'the-wall.jpg'
     ),
     album(
         'to hell with it',
@@ -488,12 +464,6 @@ const albums: Album[] = [
         'a-moon-shaped-pool.jpg'
     ),
     album(
-        'Pablo Honey',
-        Artist.Radiohead,
-        'https://open.spotify.com/album/3gBVdu4a1MMJVMy6vwPEb8',
-        'pablo-honey.jpg'
-    ),
-    album(
         'KID A MNESIA',
         Artist.Radiohead,
         'https://open.spotify.com/album/6ofEQubaL265rIW6WnCU8y',
@@ -516,12 +486,6 @@ const albums: Album[] = [
         Artist.RHCP,
         'https://open.spotify.com/album/0KJc9ksnoJJsdpQxV3z5i1',
         'return-of-the-dream-canteen.jpg'
-    ),
-    album(
-        "Mother's Milk",
-        Artist.RHCP,
-        'https://open.spotify.com/album/1oOkcBu5bgkUzZTvKD1m8z',
-        'mothers-milk.jpg'
     ),
     album(
         'Blood Sugar Sx Magik',
@@ -643,7 +607,6 @@ const albums: Album[] = [
         'https://open.spotify.com/album/1tuekzsMZQOuiMejKP6t2Y',
         'lady-wood.jpg'
     ),
-    album('V', Artist.Vald, 'https://open.spotify.com/album/03ZLnEibkBpQxhXKaQiqfU', 'v.jpg'),
     album(
         'KATSUHIRO OTOMO PRESENTS『MEMORIES』ORIGINAL MOTION PICTURE SOUNDTRACK',
         Artist.VariousArtists,
@@ -734,11 +697,15 @@ const albums: Album[] = [
         Artist.FrouFrou,
         'https://open.spotify.com/album/7rwh9WVOm4JGKAbh1xlvPc',
         'details.jpg'
+    ),
+    album(
+        'Deadwing',
+        Artist.PorcupineTree,
+        'https://open.spotify.com/album/2oQE67Gnc1GoMqoumvjPwN',
+        'deadwing.jpg'
     )
 ];
 
 export default function (): Album[] {
-    return albums.sort(
-        (a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title)
-    );
+    return albums.sort((a, b) => a.artist.localeCompare(b.artist));
 }
