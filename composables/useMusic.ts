@@ -77,7 +77,9 @@ const enum Artist {
     Evanescence = 'Evanescence',
     TheBeatles = 'The Beatles',
     FrouFrou = 'Frou Frou',
-    PorcupineTree = 'Porcupine Tree'
+    PorcupineTree = 'Porcupine Tree',
+    MachineGirl = 'Machine Girl',
+    TheMarsVolta = 'The Mars Volta'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -690,6 +692,24 @@ const albums: Album[] = [
         Artist.PorcupineTree,
         'https://open.spotify.com/album/2oQE67Gnc1GoMqoumvjPwN',
         'deadwing.jpg'
+    ),
+    album(
+        'WLFGRL+',
+        Artist.MachineGirl,
+        'https://open.spotify.com/album/1GezMTE4OA4tikMDBQK5u3',
+        'wlfgrl.jpeg'
+    ),
+    album(
+        'Deloused In the Comatorium',
+        Artist.TheMarsVolta,
+        'https://open.spotify.com/album/0CA2EVHhRPR5VPV78KZw89',
+        'deloused-in-the-comatorium.jpg'
+    ),
+    album(
+        'Amputechture',
+        Artist.TheMarsVolta,
+        'https://open.spotify.com/album/5OISte8J6DV61Vad0W0Cv9',
+        'amputechture.jpg'
     )
 ];
 
