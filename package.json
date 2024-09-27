@@ -8,20 +8,20 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "@fontsource-variable/jetbrains-mono": "^5.0.21",
-        "@fontsource-variable/rubik": "^5.0.22",
+        "@fontsource-variable/jetbrains-mono": "^5.1.0",
+        "@fontsource-variable/rubik": "^5.1.0",
         "@julesrx/utils": "^0.0.14",
-        "@nuxt/image": "1.7.0",
+        "@nuxt/image": "1.8.0",
         "bouncing-element": "^2.1.0"
     },
     "devDependencies": {
-        "@nuxt/content": "^2.13.0",
-        "@tailwindcss/typography": "^0.5.13",
-        "@vueuse/core": "^10.11.0",
-        "@vueuse/nuxt": "^10.11.0",
-        "autoprefixer": "^10.4.19",
-        "nuxt": "3.12.3",
-        "postcss": "^8.4.39",
-        "tailwindcss": "^3.4.4"
+        "@nuxt/content": "^2.13.2",
+        "@tailwindcss/typography": "^0.5.15",
+        "@vueuse/core": "^11.1.0",
+        "@vueuse/nuxt": "^11.1.0",
+        "autoprefixer": "^10.4.20",
+        "nuxt": "3.13.2",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13"
     }
 }
