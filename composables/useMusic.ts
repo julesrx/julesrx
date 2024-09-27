@@ -37,7 +37,6 @@ const enum Artist {
     Halo2Vol1 = "Martin O'Donnell, Michael Salvatori, Incubus, Nataraj, Nile Rodgers, Hoobastank, Breaking Benjamin",
     MasayoshiTakanaka = 'Masayoshi Takanaka',
     MassiveAttack = 'Massive Attack',
-    MetroBoomin = 'Metro Boomin',
     MIA = 'M.I.A.',
     TakenKing = 'Michael Salvatori, C Paul Johnson, Skye Lewin',
     MartinODonnell = "Martin O'Donnell",
@@ -172,18 +171,6 @@ const albums: Album[] = [
         Artist.C418,
         'https://open.spotify.com/album/1xvYnbUkrhFBkZ0w7Er3As',
         'life-changing-moment.jpg'
-    ),
-    album(
-        'Minecraft - Volume Alpha',
-        Artist.C418,
-        'https://open.spotify.com/album/3Gt7rOjcZQoHCfnKl5AkK7',
-        'minecraft-alpha.jpg'
-    ),
-    album(
-        'Minecraft - Volume Beta',
-        Artist.C418,
-        'https://open.spotify.com/album/7CYDRyFCKtAYJBSpfovLyX',
-        'minecraft-beta.jpg'
     ),
     album(
         'Because the Internet',
@@ -329,12 +316,6 @@ const albums: Album[] = [
         'https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR',
         'mezzanine.jpg'
     ),
-    album(
-        'HEROES & VILLAINS',
-        Artist.MetroBoomin,
-        'https://open.spotify.com/album/7txGsnDSqVMoRl6RQ9XyZP',
-        'heroes-and-villains.jpg'
-    ),
     album('AIM', Artist.MIA, 'https://open.spotify.com/album/7sZqZpGN6leR2PncwkuaUc', 'aim.jpg'),
     album(
         'Destiny: The Taken King',
@@ -458,22 +439,22 @@ const albums: Album[] = [
         'when-marnie-was-there.jpg'
     ),
     album(
-        'A Moon Shaped Pool',
+        'OK Computer',
         Artist.Radiohead,
-        'https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg',
-        'a-moon-shaped-pool.jpg'
-    ),
-    album(
-        'KID A MNESIA',
-        Artist.Radiohead,
-        'https://open.spotify.com/album/6ofEQubaL265rIW6WnCU8y',
-        'kid-a-mnesia.jpg'
+        'https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE',
+        'ok-computer.jpg'
     ),
     album(
         'In Rainbows',
         Artist.Radiohead,
         'https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK',
         'in-rainbows.jpg'
+    ),
+    album(
+        'A Moon Shaped Pool',
+        Artist.Radiohead,
+        'https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg',
+        'a-moon-shaped-pool.jpg'
     ),
     album(
         'Spectre',
@@ -540,6 +521,12 @@ const albums: Album[] = [
         Artist.TheSmile,
         'https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi',
         'a-light-for-attracting-attention.jpg'
+    ),
+    album(
+        'Wall of Eyes',
+        Artist.TheSmile,
+        'https://open.spotify.com/album/6PdPOv5ybKZ9ZuGMk5iGZd',
+        'wall-of-eyes.jpg'
     ),
     album(
         'Bloodsport',
