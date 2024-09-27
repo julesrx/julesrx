@@ -6,6 +6,10 @@
     @apply hover:opacity-80;
 }
 
+.prose img {
+    @apply w-72;
+}
+
 .prose h1 > a,
 .prose h2 > a,
 .prose h3 > a,
