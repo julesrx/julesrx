@@ -79,7 +79,11 @@ const enum Artist {
     FrouFrou = 'Frou Frou',
     PorcupineTree = 'Porcupine Tree',
     MachineGirl = 'Machine Girl',
-    TheMarsVolta = 'The Mars Volta'
+    TheMarsVolta = 'The Mars Volta',
+    Funkadelic = 'Funkadelic',
+    KAYTRANADA = 'KAYTRANADA',
+    Deftones = 'Deftones',
+    SystemOfADown = 'System Of A Down'
 }
 
 const album = (title: string, artist: string, link: string, poster: string) => ({
@@ -710,7 +714,11 @@ const albums: Album[] = [
         Artist.TheMarsVolta,
         'https://open.spotify.com/album/5OISte8J6DV61Vad0W0Cv9',
         'amputechture.jpg'
-    )
+    ),
+    album('Maggot Brain', Artist.Funkadelic, '', 'maggot-brain.jpg'),
+    album('TIMELESS', Artist.KAYTRANADA, '', 'timeless.jpg'),
+    album('Diamond Eyes', Artist.Deftones, '', 'diamond-eyes.jpg'),
+    album('Toxicity', Artist.SystemOfADown, '', 'toxicity.jpg')
 ];
 
 export default function (): Album[] {
