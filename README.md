@@ -1,17 +1,17 @@
 ### Hello there ✌️
 
-I'm Jules, a tech lead based in [Bordeaux](https://www.openstreetmap.org/node/1691675873), working with .NET, Vue, Angular, Typescript, Go and other recent stuff.
+I'm Jules, a tech lead based in [Bordeaux](https://www.openstreetmap.org/relation/105270), working with .NET, Vue, Angular, Typescript, Go and other recent stuff.
 
 #### Now
 
 -   🖌️ Working on my design skills
--   🚀 Learning [WASM](https://webassembly.org)
--   🕵 De-Google-ifying my life
+-   🍿 Managing my own media server with [Jellyfin](https://jellyfin.org)
+-   🏠 Redesigning my home interior
 
 #### Bio
 
 -   🐧 Daily driving [Linux](https://ubuntu.com/desktop)
--   😍 Loves [Vue](https://vuejs.org), [Nuxt](https://nuxt.com/) and [Vite](https://vitejs.dev)
+-   😍 Loves [Vue](https://vuejs.org), [Nuxt](https://nuxt.com) and [Vite](https://vitejs.dev)
 -   🌱 Contributes to Open Source
 -   👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
 -   💿 Music addict
