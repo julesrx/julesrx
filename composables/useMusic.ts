@@ -77,11 +77,13 @@ const enum Artist {
     FrouFrou = 'Frou Frou',
     PorcupineTree = 'Porcupine Tree',
     MachineGirl = 'Machine Girl',
+    Machinedrum = 'Machinedrum',
     TheMarsVolta = 'The Mars Volta',
     Funkadelic = 'Funkadelic',
     KAYTRANADA = 'KAYTRANADA',
     Deftones = 'Deftones',
-    SystemOfADown = 'System Of A Down'
+    SystemOfADown = 'System Of A Down',
+    DaveNavarro = 'Dave Navarro'
 }
 
 const album = (title: string, artist: Artist, poster: string, link?: string): Album => ({
@@ -218,10 +220,12 @@ const albums: Album[] = [
     album('WLFGRL+', Artist.MachineGirl, 'wlfgrl.jpeg'),
     album('Deloused In the Comatorium', Artist.TheMarsVolta, 'deloused-in-the-comatorium.jpg'),
     album('Amputechture', Artist.TheMarsVolta, 'amputechture.jpg'),
-    album('Maggot Brain', Artist.Funkadelic, '', 'maggot-brain.jpg'),
-    album('TIMELESS', Artist.KAYTRANADA, '', 'timeless.jpg'),
-    album('Diamond Eyes', Artist.Deftones, '', 'diamond-eyes.jpg'),
-    album('Toxicity', Artist.SystemOfADown, '', 'toxicity.jpg')
+    album('Maggot Brain', Artist.Funkadelic, 'maggot-brain.jpg'),
+    album('TIMELESS', Artist.KAYTRANADA, 'timeless.jpg'),
+    album('Diamond Eyes', Artist.Deftones, 'diamond-eyes.jpg'),
+    album('Toxicity', Artist.SystemOfADown, 'toxicity.jpg'),
+    album('Trust No One', Artist.DaveNavarro, 'trust-no-one.jpg'),
+    album('A View of U', Artist.Machinedrum, 'a-view-ofu.jpg')
 ];
 
 export default function (): Album[] {
