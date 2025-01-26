@@ -53,14 +53,6 @@ const { data } = await useFetch<{ login: string; avatar_url: string }>(
                     class="rounded-full h-40 w-40"
                 />
             </NuxtLink>
-
-            <NuxtLink
-                to="/music"
-                class="absolute top-0 right-0 hidden sm:block"
-                title="What do I listen to?"
-            >
-                🎶
-            </NuxtLink>
         </header>
 
         <NuxtPage />
