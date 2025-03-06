@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite';
+
 const title = 'Jules Raffoux · Tech lead';
 const description =
   'Tech lead based in Bordeaux, working with .NET, Vue, Typescript, Go and other recent stuff.';
@@ -12,11 +14,8 @@ export default defineNuxtConfig({
     '@fontsource-variable/jetbrains-mono/index.css',
     '~/assets/main.css'
   ],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {}
-    }
+  vite: {
+    plugins: [tailwindcss()]
   },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
