@@ -21,10 +21,14 @@ const classes = [
   'prose-headings:font-medium',
   'prose-h4:mt-4'
 ];
+
+const { data: readme } = await useAsyncData(() =>
+  queryCollection('content').path('/readme').first()
+);
 </script>
 
 <template>
   <div>
-    <ContentDoc id="readme" path="/readme" tag="article" :class="classes" :head="false" />
+    <ContentRenderer id="readme" :value="readme" tag="article" :class="classes" :head="false" />
   </div>
 </template>

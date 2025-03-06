@@ -4,6 +4,7 @@ const description =
 const url = 'https://julesrx.fr/';
 
 export default defineNuxtConfig({
+  compatibilityDate: '2025-03-06',
   modules: ['@nuxt/content', '@nuxt/image', '@vueuse/nuxt'],
   image: { domains: ['avatars.githubusercontent.com'] },
   css: [
