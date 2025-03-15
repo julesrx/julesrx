@@ -14,9 +14,6 @@ importers:
       '@fontsource-variable/rubik':
         specifier: ^5.2.5
         version: 5.2.5
-      '@julesrx/utils':
-        specifier: ^0.0.14
-        version: 0.0.14(db0@0.3.1(better-sqlite3@11.8.1))(ioredis@5.6.0)
       '@nuxt/image':
         specifier: 1.9.0
         version: 1.9.0(db0@0.3.1(better-sqlite3@11.8.1))(idb-keyval@6.2.1)(ioredis@5.6.0)(magicast@0.3.5)
@@ -540,9 +537,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-
-  '@julesrx/utils@0.0.14':
-    resolution: {integrity: sha512-FjhfkaaVFhRjnak6Z5jQKhmIB5j0Y2hb1nBK+3FPsRsNy8BpdQ83GXtfu9BSgkCKQTS7kTg9TwLs/nuvXmei4A==}
 
   '@kwsites/file-exists@1.1.1':
     resolution: {integrity: sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==}
@@ -4523,29 +4517,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@julesrx/utils@0.0.14(db0@0.3.1(better-sqlite3@11.8.1))(ioredis@5.6.0)':
-    dependencies:
-      idb-keyval: 6.2.1
-      unstorage: 1.15.0(db0@0.3.1(better-sqlite3@11.8.1))(idb-keyval@6.2.1)(ioredis@5.6.0)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/kv'
-      - aws4fetch
-      - db0
-      - ioredis
-      - uploadthing
-
   '@kwsites/file-exists@1.1.1':
     dependencies:
       debug: 4.4.0(supports-color@9.4.0)
@@ -6601,7 +6572,8 @@ snapshots:
 
   human-signals@5.0.0: {}
 
-  idb-keyval@6.2.1: {}
+  idb-keyval@6.2.1:
+    optional: true
 
   ieee754@1.2.1: {}
 
