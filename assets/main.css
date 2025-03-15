@@ -2,8 +2,10 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-  --font-sans: 'Rubik Variable';
-  --font-mono: 'JetBrains Mono Variable';
+  --font-sans: 'Rubik Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
 
   /* https://tailwindcss.com/docs/theme#sharing-across-projects */
   --color-white: #c9d1d9;
