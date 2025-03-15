@@ -4,7 +4,7 @@ I'm Jules, a tech lead based in [Bordeaux](https://www.openstreetmap.org/relatio
 
 #### Now
 
-- 🖌️ Working on my design skills
+- ⚙️ Learning [Rust](https://www.rust-lang.org/)
 - 🍿 Managing my own media server with [Jellyfin](https://jellyfin.org)
 - 🏠 Redesigning my home interior
 
