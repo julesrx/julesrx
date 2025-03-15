@@ -14,9 +14,8 @@ export default defineNuxtConfig({
     '@fontsource-variable/jetbrains-mono/index.css',
     '~/assets/main.css'
   ],
-  vite: {
-    plugins: [tailwindcss()]
-  },
+  vite: { plugins: [tailwindcss()] },
+  content: { renderer: { anchorLinks: false } },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
