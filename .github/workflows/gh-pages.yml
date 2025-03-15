@@ -11,19 +11,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install deps
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: true
-          version: 9
+        run: bun install
 
       - name: Generate
-        run: pnpm generate
+        run: bun run generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
