@@ -11,15 +11,15 @@
     "@fontsource-variable/jetbrains-mono": "^5.2.5",
     "@fontsource-variable/rubik": "^5.2.5",
     "@nuxt/image": "1.9.0",
-    "@tailwindcss/vite": "^4.0.14",
+    "@tailwindcss/vite": "^4.1.4",
     "bouncing-element": "^2.1.0"
   },
   "devDependencies": {
-    "@nuxt/content": "^3.3.0",
+    "@nuxt/content": "^3.4.0",
     "@tailwindcss/typography": "^0.5.16",
-    "@vueuse/core": "^13.0.0",
-    "@vueuse/nuxt": "^13.0.0",
+    "@vueuse/core": "^13.1.0",
+    "@vueuse/nuxt": "^13.1.0",
     "nuxt": "3.16.0",
-    "tailwindcss": "^4.0.14"
+    "tailwindcss": "^4.1.4"
   }
 }
