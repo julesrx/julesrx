@@ -1,6 +1,6 @@
 ### Hello there ✌️
 
-I'm Jules, a tech lead based in [Bordeaux](https://www.openstreetmap.org/relation/105270), working with .NET, Vue, Angular, Typescript, Go and other recent stuff.
+I'm Jules, a tech lead based in [Bordeaux](https://en.wikipedia.org/wiki/Bordeaux), working with .NET, Angular, Vue, Typescript, Go and other recent stuff.
 
 #### Now
 
