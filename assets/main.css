@@ -1,10 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+html {
+  font-size: 18px;
+}
+
 @theme {
-  --font-sans: 'Rubik Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+  --font-sans:
+    'Rubik Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono:
+    'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     'Liberation Mono', 'Courier New', monospace;
 
   /* https://tailwindcss.com/docs/theme#sharing-across-projects */
