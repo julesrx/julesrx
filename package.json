@@ -15,10 +15,10 @@
     "bouncing-element": "^2.1.0"
   },
   "devDependencies": {
-    "@nuxt/content": "^3.11.0",
+    "@nuxt/content": "^3.11.2",
     "@tailwindcss/typography": "^0.5.19",
-    "@vueuse/core": "^14.1.0",
-    "@vueuse/nuxt": "^14.1.0",
+    "@vueuse/core": "^14.2.0",
+    "@vueuse/nuxt": "^14.2.0",
     "nuxt": "4.2.2",
     "tailwindcss": "^4.1.18"
   }
