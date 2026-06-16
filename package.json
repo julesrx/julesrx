@@ -19,7 +19,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@vueuse/core": "^14.2.0",
     "@vueuse/nuxt": "^14.2.0",
-    "nuxt": "4.2.2",
+    "nuxt": "4.4.7",
     "tailwindcss": "^4.1.18"
   }
 }
