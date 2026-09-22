@@ -1,6 +1,6 @@
 import tailwindcss from '@tailwindcss/vite';
 
-const title = 'Jules Raffoux · Tech lead based in Bordeaux';
+const title = 'Jules Raffoux · Tech lead';
 const description =
   'Tech lead based in Bordeaux, working with .NET, Vue, Typescript, Go and other recent stuff.';
 const url = 'https://julesrx.fr/';

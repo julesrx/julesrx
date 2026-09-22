@@ -1,18 +1,19 @@
 ### Hello there ✌️
 
-I'm Jules, a tech lead based in [Bordeaux](https://en.wikipedia.org/wiki/Bordeaux), working with .NET, Angular, Vue, Typescript, Claude and other recent stuff.
+I'm Jules, a tech lead based in [Bordeaux](https://en.wikipedia.org/wiki/Bordeaux), working with .NET, Angular, Vue, Typescript, Go and other recent stuff.
 
 #### Now
 
-- 🤖 Building a local AI agent ecosystem
-- 🍿 Managing my own media stack with [Unraid](https://unraid.net)
+- ⚙️ Learning [Rust](https://www.rust-lang.org/)
+- 🍿 Managing my own media server with [Jellyfin](https://jellyfin.org)
 - 🏠 Redesigning my home interior
 
 #### Bio
 
 - 🐧 Daily driving [Linux](https://ubuntu.com/desktop)
 - 😍 Loves [Vue](https://vuejs.org), [Nuxt](https://nuxt.com) and [Vite](https://vitejs.dev)
-- 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.yml`, `.md`
+- 🌱 Contributes to Open Source
+- 👨‍💻 Coding daily in `.cs`, `.ts`, `.vue`, `.go`, `.yml`
 - 💿 Music addict
 - 🎮 Handball player, Halo & Destiny fan
 
