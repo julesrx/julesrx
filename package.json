@@ -21,5 +21,13 @@
     "@vueuse/nuxt": "^14.2.0",
     "nuxt": "4.2.2",
     "tailwindcss": "^4.1.18"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "sharp"
+    ]
   }
 }
