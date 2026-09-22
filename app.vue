@@ -2,7 +2,7 @@
 import { createBouncer } from 'bouncing-element';
 
 onMounted(() => {
-  const emojis = ['🐧', '🌱', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🎬', '🏍', '🐸', '🚀'];
+  const emojis = ['🐧', '👨‍💻', '🎮', '🍝', '🌈', '📀', '🎬', '🏍', '🐸', '🚀', '🤖'];
   const els: HTMLElement[] = [
     ...Array(3)
       .fill(emojis)
